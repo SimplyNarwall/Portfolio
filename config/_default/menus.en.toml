@@ -2,7 +2,7 @@
 name = "home"
 pageRef = "home"
 identifier = "EROAXPnuMj"
-weight = 3
+weight = 1
 
 [[main]]
 name = "projects"
@@ -14,7 +14,7 @@ weight = 2
 name = "resume"
 pageRef = "portfolio"
 identifier = "NGSdgIHFBb"
-weight = 1
+weight = 3
 
 [[footer]]
 none = "none"
