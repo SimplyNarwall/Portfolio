@@ -1,17 +1,17 @@
 [[main]]
-name = "home"
+name = "Home"
 pageRef = ""
 identifier = "EROAXPnuMj"
 weight = 1
 
 [[main]]
-name = "projects"
+name = "Projects"
 pageRef = "projects"
 identifier = "2jOMxSC9At"
 weight = 2
 
 [[main]]
-name = "resume"
+name = "Resume"
 pageRef = "portfolio"
 identifier = "NGSdgIHFBb"
 weight = 3
