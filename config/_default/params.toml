@@ -8,7 +8,7 @@ disableImageOptimization = false
 disableTextInHeader = false
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
-defaultBackgroundImage = "background.svg "
+defaultBackgroundImage = "background.svg"
 
 [header]
 layout = "basic"
@@ -29,7 +29,7 @@ showMoreLinkDest = "/posts/"
 cardView = false
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
-homepageImage = "challenger.png "
+homepageImage = "background.svg"
 
 [article]
 showDate = false
