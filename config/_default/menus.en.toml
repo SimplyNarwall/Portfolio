@@ -2,13 +2,13 @@
 name = "Projects"
 pageRef = "projects"
 identifier = "2jOMxSC9At"
-weight = 2
+weight = 1
 
 [[main]]
 name = "Resume"
 pageRef = "portfolio"
 identifier = "NGSdgIHFBb"
-weight = 3
+weight = 2
 
 [[footer]]
 none = "none"

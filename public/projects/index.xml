@@ -18,5 +18,35 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1730234532167-bike-the-bullet/featured.png" />
     </item>
     
+    <item>
+      <title>Master Dancer</title>
+      <link>http://localhost:1313/projects/1730235661412-master-dancer/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1730235661412-master-dancer/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1730235661412-master-dancer/featured.png" />
+    </item>
+    
+    <item>
+      <title>Others</title>
+      <link>http://localhost:1313/projects/1730235727446-others/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1730235727446-others/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1730235727446-others/featured.png" />
+    </item>
+    
+    <item>
+      <title>Triplight</title>
+      <link>http://localhost:1313/projects/1730235682729-triplight/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1730235682729-triplight/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1730235682729-triplight/featured.png" />
+    </item>
+    
   </channel>
 </rss>
