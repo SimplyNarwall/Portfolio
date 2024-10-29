@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blowfish</title>
+    <title>Portfolio</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Blowfish</description>
+    <description>Recent content on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
+    <managingEditor>ethan12wang@gmail.com (Ethan Wang)</managingEditor>
+    <webMaster>ethan12wang@gmail.com (Ethan Wang)</webMaster>
+    <copyright>© 2024 Ethan Wang</copyright>
     <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bike the Bullet</title>
       <link>http://localhost:1313/projects/1730234532167-bike-the-bullet/</link>
       <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
       <guid>http://localhost:1313/projects/1730234532167-bike-the-bullet/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1730234532167-bike-the-bullet/featured.png" />
@@ -22,7 +24,7 @@
       <title>Master Dancer</title>
       <link>http://localhost:1313/projects/1730235661412-master-dancer/</link>
       <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
       <guid>http://localhost:1313/projects/1730235661412-master-dancer/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1730235661412-master-dancer/featured.png" />
@@ -32,7 +34,7 @@
       <title>Others</title>
       <link>http://localhost:1313/projects/1730235727446-others/</link>
       <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
       <guid>http://localhost:1313/projects/1730235727446-others/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1730235727446-others/featured.png" />
@@ -42,7 +44,7 @@
       <title>Triplight</title>
       <link>http://localhost:1313/projects/1730235682729-triplight/</link>
       <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
       <guid>http://localhost:1313/projects/1730235682729-triplight/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1730235682729-triplight/featured.png" />
