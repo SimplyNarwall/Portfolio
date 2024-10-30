@@ -1,6 +1,6 @@
 ---
 title: "Master Dancer"
-weight: 3
+weight: 4
 draft: false
 summary: "A VR experienced which aims to teach the player about Loie Fuller, and to become a Master Dancer"
 tags: ["Design"]
