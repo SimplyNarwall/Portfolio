@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Others on Portfolio</title>
+    <link>http://localhost:1313/others/</link>
+    <description>Recent content in Others on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ethan12wang@gmail.com (Ethan Wang)</managingEditor>
+    <webMaster>ethan12wang@gmail.com (Ethan Wang)</webMaster>
+    <copyright>© 2024 Ethan Wang</copyright>
+    <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/others/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Armageddon</title>
+      <link>http://localhost:1313/others/1730263492834-armageddon/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/others/1730263492834-armageddon/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/1730263492834-armageddon/featured.png" />
+    </item>
+    
+    <item>
+      <title>Climatic</title>
+      <link>http://localhost:1313/others/1730263545830-climatic/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/others/1730263545830-climatic/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/1730263545830-climatic/featured.png" />
+    </item>
+    
+    <item>
+      <title>Fitness Journey</title>
+      <link>http://localhost:1313/others/1730263523989-fitness-journey/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/others/1730263523989-fitness-journey/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/1730263523989-fitness-journey/featured.png" />
+    </item>
+    
+    <item>
+      <title>Phishing Trip</title>
+      <link>http://localhost:1313/others/1730263566698-phishing-trip/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/others/1730263566698-phishing-trip/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/1730263566698-phishing-trip/featured.png" />
+    </item>
+    
+    <item>
+      <title>Resilient Community</title>
+      <link>http://localhost:1313/others/1730263514190-resilient-community/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/others/1730263514190-resilient-community/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/1730263514190-resilient-community/featured.png" />
+    </item>
+    
+    <item>
+      <title>Square Shuffle</title>
+      <link>http://localhost:1313/others/1730263556616-square-shuffle/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/others/1730263556616-square-shuffle/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/1730263556616-square-shuffle/featured.png" />
+    </item>
+    
+    <item>
+      <title>Sticky Stacky Blocks</title>
+      <link>http://localhost:1313/others/1730263539814-sticky-stacky-blocks/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/others/1730263539814-sticky-stacky-blocks/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/1730263539814-sticky-stacky-blocks/featured.png" />
+    </item>
+    
+    <item>
+      <title>Triple Blocks</title>
+      <link>http://localhost:1313/others/1730263531461-triple-blocks/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/others/1730263531461-triple-blocks/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/1730263531461-triple-blocks/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

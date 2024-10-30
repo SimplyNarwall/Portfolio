@@ -3,6 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/others/1730263492834-armageddon/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/others/1730263545830-climatic/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/others/1730263523989-fitness-journey/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/others/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/others/1730263566698-phishing-trip/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/others/1730263514190-resilient-community/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/others/1730263556616-square-shuffle/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/others/1730263539814-sticky-stacky-blocks/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/others/1730263531461-triple-blocks/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/projects/1730234532167-bike-the-bullet/</loc>
     <lastmod>2024-10-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -22,12 +82,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/projects/1730235727446-others/</loc>
-    <lastmod>2024-10-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2024-10-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
