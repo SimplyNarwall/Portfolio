@@ -1,9 +1,9 @@
 ---
 title: "Others"
-date: 0
+weight: 0
 draft: false
-description: "test description"
-tags: ["test", "test"]
+summary: "Other projects I have finished/helped created"
+tags: []
 ---
  an example to get you started
 # This is a heading
