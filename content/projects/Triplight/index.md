@@ -1,6 +1,6 @@
 ---
 title: "Triplight"
-date: 2024-10-29
+date: 1
 draft: false
 description: "a description"
 tags: ["example", "tag"]

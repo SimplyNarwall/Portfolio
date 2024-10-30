@@ -1,6 +1,6 @@
 ---
 title: "Master Dancer"
-date: 2024-10-29
+date: 3
 draft: false
 description: "a description"
 tags: ["example", "tag"]

@@ -1,6 +1,6 @@
 ---
 title: "Others"
-date: 2024-10-29
+date: 0
 draft: false
 description: "test description"
 tags: ["test", "test"]

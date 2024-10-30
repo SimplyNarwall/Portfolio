@@ -1,6 +1,6 @@
 ---
 title: "Bike the Bullet"
-date: 2024-10-29
+date: 2
 draft: false
 description: "a description"
 tags: ["example", "tag"]
