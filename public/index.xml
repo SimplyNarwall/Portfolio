@@ -11,6 +11,46 @@
     <copyright>© 2024 Ethan Wang</copyright>
     <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Others</title>
+      <link>http://localhost:1313/projects/others/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/projects/others/</guid>
+      <description>Other projects I have finished/helped created</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/others/featured.png" />
+    </item>
+    
+    <item>
+      <title>Triplight</title>
+      <link>http://localhost:1313/projects/triplight/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/projects/triplight/</guid>
+      <description>A mind bending 2d laser based puzzle game</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/triplight/featured.png" />
+    </item>
+    
+    <item>
+      <title>Bike the Bullet</title>
+      <link>http://localhost:1313/projects/bike-the-bullet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/projects/bike-the-bullet/</guid>
+      <description>A 2d shoot em up style game created in 3 days for MonkeyJam 2024</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/bike-the-bullet/featured.png" />
+    </item>
+    
+    <item>
+      <title>Master Dancer</title>
+      <link>http://localhost:1313/projects/master-dancer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/projects/master-dancer/</guid>
+      <description>A VR experienced which aims to teach the player about Loie Fuller, and to become a Master Dancer</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/master-dancer/featured.png" />
+    </item>
+    
+    <item>
       <title>Armageddon</title>
       <link>http://localhost:1313/others/armageddon/</link>
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
@@ -91,36 +131,6 @@
     </item>
     
     <item>
-      <title>Bike the Bullet</title>
-      <link>http://localhost:1313/projects/bike-the-bullet/</link>
-      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/projects/bike-the-bullet/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/bike-the-bullet/featured.png" />
-    </item>
-    
-    <item>
-      <title>Master Dancer</title>
-      <link>http://localhost:1313/projects/master-dancer/</link>
-      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/projects/master-dancer/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/master-dancer/featured.png" />
-    </item>
-    
-    <item>
-      <title>Others</title>
-      <link>http://localhost:1313/projects/others/</link>
-      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/projects/others/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/others/featured.png" />
-    </item>
-    
-    <item>
       <title>Resume</title>
       <link>http://localhost:1313/resume/</link>
       <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
@@ -128,16 +138,6 @@
       <guid>http://localhost:1313/resume/</guid>
       <description></description>
       
-    </item>
-    
-    <item>
-      <title>Triplight</title>
-      <link>http://localhost:1313/projects/triplight/</link>
-      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/projects/triplight/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/triplight/featured.png" />
     </item>
     
   </channel>

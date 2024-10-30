@@ -91,26 +91,6 @@
     </item>
     
     <item>
-      <title>Bike the Bullet</title>
-      <link>http://localhost:1313/projects/bike-the-bullet/</link>
-      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/projects/bike-the-bullet/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/bike-the-bullet/featured.png" />
-    </item>
-    
-    <item>
-      <title>Master Dancer</title>
-      <link>http://localhost:1313/projects/master-dancer/</link>
-      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/projects/master-dancer/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/master-dancer/featured.png" />
-    </item>
-    
-    <item>
       <title>Resume</title>
       <link>http://localhost:1313/resume/</link>
       <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
@@ -121,9 +101,19 @@
     </item>
     
     <item>
+      <title>Master Dancer</title>
+      <link>http://localhost:1313/projects/master-dancer/</link>
+      <pubDate>Wed, 31 Dec 1969 18:00:03 -0600</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/projects/master-dancer/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/master-dancer/featured.png" />
+    </item>
+    
+    <item>
       <title>Triplight</title>
       <link>http://localhost:1313/projects/triplight/</link>
-      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:00:01 -0600</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
       <guid>http://localhost:1313/projects/triplight/</guid>
       <description></description>
