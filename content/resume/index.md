@@ -1,5 +1,5 @@
 ---
-title: "Bike the Bullet"
+title: "Resume"
 date: 2024-10-29
 draft: false
 description: "a description"
