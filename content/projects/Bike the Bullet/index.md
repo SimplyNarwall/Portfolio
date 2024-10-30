@@ -1,10 +1,13 @@
 ---
 title: "Bike the Bullet"
-date: 2
+weight: 2
 draft: false
-description: "a description"
-tags: ["example", "tag"]
+summary: "A 2d shoot em up style game created in 3 days for MonkeyJam 2024"
+description: "A 2d shoot em up style game created in 3 days for MonkeyJam 2024"
+categories: ["test", "test"]
+tags: ["Design", "Unity"]
 ---
+
  an example to get you started
 # This is a heading
 ## This is a subheading
