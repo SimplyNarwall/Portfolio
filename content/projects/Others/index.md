@@ -1,6 +1,6 @@
 ---
 title: "Others"
-weight: 0
+weight: 1
 draft: false
 summary: "Other projects I have finished/helped created"
 tags: []
