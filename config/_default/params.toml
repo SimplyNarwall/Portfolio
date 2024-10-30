@@ -63,16 +63,16 @@ showHero = true
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
-showSummary = false
+showSummary = true
 showViews = false
 showLikes = false
 showTableOfContents = false
-showCards = false
+showCards = true
 orderByWeight = false
 groupByYear = false
 cardView = false
 cardViewScreenWidth = false
-constrainItemsWidth = false
+constrainItemsWidth = ""
 heroStyle = "background"
 
 [sitemap]
