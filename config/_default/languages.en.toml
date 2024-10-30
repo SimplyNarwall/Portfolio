@@ -76,13 +76,13 @@ title = "Portfolio"
  [params.author]
    name = "Ethan Wang"
    email = "ethan12wang@gmail.com"
-   image = "img/blowfish_logo.png"
+   image = "/img/pfp.jpg"
    imageQuality = 96
    headline = "No thoughts head empty"
    bio = "temporary bio"
    links = [
      { email = "mailto:ethan12wang@gmail.com" },
      { github = "https://github.com/SimplyNarwall" },
-#     { itch-io = "https://simplynarwall.itch.io" },
+     { itch-io = "https://simplynarwall.itch.io" },
      { linkedin = "https://www.linkedin.com/in/ethan-wang-5b244a239/" },
     ]
