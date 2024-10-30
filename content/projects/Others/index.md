@@ -2,8 +2,8 @@
 title: "Others"
 date: 2024-10-29
 draft: false
-description: "a description"
-tags: ["example", "tag"]
+description: "test description"
+tags: ["test", "test"]
 ---
  an example to get you started
 # This is a heading
