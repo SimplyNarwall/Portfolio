@@ -47,7 +47,7 @@ showEdit = false
 editAppendPath = true
 seriesOpened = false
 showHeadingAnchors = true
-showPagination = true
+showPagination = false
 invertPagination = false
 showReadingTime = false
 showTableOfContents = false
@@ -56,6 +56,7 @@ showAuthorsBadges = false
 showWordCount = false
 showZenMode = false
 heroStyle = "background"
+showRelatedContent = false
 
 [list]
 showHero = true
