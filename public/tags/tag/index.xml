@@ -100,5 +100,25 @@
       
     </item>
     
+    <item>
+      <title>Master Dancer</title>
+      <link>http://localhost:1313/projects/master-dancer/</link>
+      <pubDate>Wed, 31 Dec 1969 18:00:03 -0600</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/projects/master-dancer/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/master-dancer/featured.png" />
+    </item>
+    
+    <item>
+      <title>Triplight</title>
+      <link>http://localhost:1313/projects/triplight/</link>
+      <pubDate>Wed, 31 Dec 1969 18:00:01 -0600</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/projects/triplight/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/triplight/featured.png" />
+    </item>
+    
   </channel>
 </rss>
