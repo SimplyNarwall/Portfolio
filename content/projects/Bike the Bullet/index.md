@@ -4,7 +4,6 @@ weight: 2
 draft: false
 summary: "A 2d shoot em up style game created in 3 days for MonkeyJam 2024"
 description: "A 2d shoot em up style game created in 3 days for MonkeyJam 2024"
-categories: ["test", "test"]
 tags: ["Design", "Unity"]
 ---
 
