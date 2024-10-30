@@ -14,5 +14,6 @@ This is a paragraph with **bold** and *italic* text.
 Check more at [Blowfish documentation](https://blowfish.page/)
 undefined
 
+ {{< video src="/mp4/MD demo.mp4" controls = "yes" >}}
 
 
