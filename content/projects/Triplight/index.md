@@ -3,7 +3,6 @@ title: "Triplight"
 weight: 1
 draft: false
 summary: "A mind bending 2d laser based puzzle game"
-description: "A 2d shoot em up style game created in 3 days for MonkeyJam 2024"
 tags: ["Design"]
 ---
  an example to get you started
