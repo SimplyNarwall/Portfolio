@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/projects/others/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/projects/triplight/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/projects/bike-the-bullet/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/projects/master-dancer/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -74,26 +89,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/master-dancer/</loc>
-    <lastmod>1969-12-31T18:00:03-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/projects/</loc>
-    <lastmod>1969-12-31T18:00:03-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/projects/triplight/</loc>
-    <lastmod>1969-12-31T18:00:01-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/projects/others/</loc>
-    <lastmod>1969-12-31T18:00:00-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
