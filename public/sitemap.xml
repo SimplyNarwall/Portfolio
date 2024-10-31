@@ -3,93 +3,93 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/projects/others/</loc>
+    <loc>//localhost:1313/projects/others/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/triplight/</loc>
+    <loc>//localhost:1313/projects/triplight/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/bike-the-bullet/</loc>
+    <loc>//localhost:1313/projects/bike-the-bullet/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/master-dancer/</loc>
+    <loc>//localhost:1313/projects/master-dancer/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/others/armageddon/</loc>
+    <loc>//localhost:1313/others/armageddon/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/others/climatic/</loc>
+    <loc>//localhost:1313/others/climatic/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/others/fj/</loc>
+    <loc>//localhost:1313/others/fj/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/others/</loc>
+    <loc>//localhost:1313/others/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/others/ft/</loc>
+    <loc>//localhost:1313/others/ft/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/others/rc/</loc>
+    <loc>//localhost:1313/others/rc/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/others/ss/</loc>
+    <loc>//localhost:1313/others/ss/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/others/sss/</loc>
+    <loc>//localhost:1313/others/sss/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/others/tb/</loc>
+    <loc>//localhost:1313/others/tb/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/resume/</loc>
+    <loc>//localhost:1313/resume/</loc>
     <lastmod>2024-10-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>//localhost:1313/projects/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
