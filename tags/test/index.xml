@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Portfolio</title>
+    <link>http://localhost:1313/tags/test/</link>
+    <description>Recent content in Test on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ethan12wang@gmail.com (Ethan Wang)</managingEditor>
+    <webMaster>ethan12wang@gmail.com (Ethan Wang)</webMaster>
+    <copyright>© 2024 Ethan Wang</copyright>
+    <lastBuildDate>Wed, 31 Dec 1969 18:00:00 -0600</lastBuildDate><atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Others</title>
+      <link>http://localhost:1313/projects/others/</link>
+      <pubDate>Wed, 31 Dec 1969 18:00:00 -0600</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/projects/others/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/others/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
