@@ -1,15 +1,22 @@
 ---
 title: "Armageddon"
-date: 2024-10-30
+weight: 20
 draft: false
-description: "a description"
-tags: ["example", "tag"]
+summary: "A 2d shoot em' up style game created in 3 days for MonkeyJam 2024"
+tags: ["Design", "Unity"]
 ---
- an example to get you started
-# This is a heading
-## This is a subheading
-### This is a subsubheading
-#### This is a subsubsubheading
-This is a paragraph with **bold** and *italic* text.
-Check more at [Blowfish documentation](https://blowfish.page/)
-undefined
+<p><img src="featured.png" width="640" height = "360"></p>
+
+## Overview
+- 
+
+## Team Size/Time constraint
+-
+
+## What I did
+- 
+<p><img src="btb2.png" width="640" height = "360"></p>
+
+## Link to Game
+
+https://n0va-0.itch.io/bike-the-bullet
