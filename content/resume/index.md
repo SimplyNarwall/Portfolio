@@ -14,4 +14,4 @@ This is a paragraph with **bold** and *italic* text.
 Check more at [Blowfish documentation](https://blowfish.page/)
 undefined
 
-<embed src="resume.pdf" type="application/pdf" width="595" height="842"/>
+<embed src="resume.pdf" type="application/pdf" width="892" height="842"/>
