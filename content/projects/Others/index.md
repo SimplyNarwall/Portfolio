@@ -16,13 +16,13 @@ undefined
 
 test 1
 
-{{< article link="projects/Master-dancer/" >}} 
+{{< article link="/projects/Master-dancer/" >}} 
 
 test 2
-{{< article link="Master-dancer/" >}} 
+{{< article link="/Master-dancer/" >}} 
 test 3
 
-{{< article link="Portfolio/projectsMaster-dancer/" >}} 
+{{< article link="/Portfolio/projects/Master-dancer/" >}} 
 test 4
 
 {{< article link="others/Armageddon/" >}} 
