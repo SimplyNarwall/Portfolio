@@ -28,9 +28,11 @@ tags: ["Design"]
 ## Examples of Work
 
 <picture>
-  src="Tutorial Miro.png">
+  <img src="Tutorial Miro.png" width="640" height="360">
 </picture>
 
 <picture>
-  src="Music Game Game Loop.png">
+  <img src="Music Game Game Loop.png"width="640" height="360">
 </picture>
+
+<embed src="resume.pdf" type="application/pdf" width="892" height="842"/>
