@@ -14,4 +14,4 @@ This is a paragraph with **bold** and *italic* text.
 Check more at [Blowfish documentation](https://blowfish.page/)
 undefined
 
-<a href="Ethan Wang Resume - Google Docs.pdf"></a>
+<embed src="Ethan Wang Resume - Google Docs.pdf" type="application/pdf" />
