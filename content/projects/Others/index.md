@@ -5,14 +5,7 @@ draft: false
 summary: "Other projects I have finished/helped created"
 tags: []
 ---
- an example to get you started
-# This is a heading
-## This is a subheading
-### This is a subsubheading
-#### This is a subsubsubheading
-This is a paragraph with **bold** and *italic* text.
-Check more at [Blowfish documentation](https://blowfish.page/)
-undefined
+Here are some of my other projects. They are here because they are overall older or lower quality than the 3 main ones on the projects page.
 
 {{< article link="/Portfolio/others/Armageddon/" >}} 
 
