@@ -14,6 +14,7 @@ tags: ["Design", "Unity"]
 
 ## What I did
 - Wrote GDD summary
+- Designed weapon types
 - Designed enemy movement/attack patterns
 - Programmed entire game with the exception of 2 minor enemy types and the enemy spawn timings.
 
