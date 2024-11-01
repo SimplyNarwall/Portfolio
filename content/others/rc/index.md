@@ -29,5 +29,5 @@ tags: ["Design"]
 </picture>
 
 <picture>
-  <img src="ingame.jpg"width="960" height="540">
+  <img src="ingame.png"width="960" height="540">
 </picture>
