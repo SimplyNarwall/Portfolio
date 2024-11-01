@@ -15,7 +15,7 @@ tags: ["Design"]
 - In Master Dancer, you meet the famous dancer Loïe Fuller, the first to integrate technology into modern dance. As a player, you engage in action games to learn her movement principles and, guided by Virtual Loïe, explore her world. You will use modern VR technology to create your own unique dance, becoming a Master Dancer yourself!
 
 ## Team Size/Time constraint
-- Worked as the lead of design in a team of 6, over the course of 2 semesters.
+- Worked as the lead of design in a team of 6, currently ongoing.
 
 ## What I did
 - Wrote Systems dictionaries
