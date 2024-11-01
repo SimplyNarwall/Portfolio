@@ -5,7 +5,7 @@ draft: false
 summary: ""
 tags: [""]
 ---
-<p><img src="featured.png" width="640" height = "360"></p>
+<p><img src="featured.png" width="800" height = "360"></p>
 
 ## Overview
 - 
