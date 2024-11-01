@@ -14,18 +14,18 @@ This is a paragraph with **bold** and *italic* text.
 Check more at [Blowfish documentation](https://blowfish.page/)
 undefined
 
-{{< article link="/others/Armageddon/" >}} 
+{{< article link="others/Armageddon/" >}} 
 
-{{< article link="/others/rc/" >}} 
+{{< article link="others/rc/" >}} 
 
-{{< article link="/others/fj/" >}}
+{{< article link="others/fj/" >}}
 
-{{< article link="/others/tb/" >}} 
+{{< article link="others/tb/" >}} 
 
-{{< article link="/others/sss/" >}} 
+{{< article link="others/sss/" >}} 
 
-{{< article link="/others/Climatic/" >}} 
+{{< article link="others/Climatic/" >}} 
 
-{{< article link="/others/ss/" >}} 
+{{< article link="others/ss/" >}} 
 
-{{< article link="/others/ft/" >}}
+{{< article link="others/ft/" >}}
