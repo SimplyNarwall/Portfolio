@@ -2,7 +2,7 @@
 title: ""
 weight: 20
 draft: false
-summary: ""
+summary: "An educational game where you keep your community functional in the face of natural disasters"
 tags: ["Design"]
 ---
 <p><img src="featured.png" width="640" height = "360"></p>
@@ -11,7 +11,7 @@ tags: ["Design"]
 - 
 
 ## Team Size/Time constraint
--
+- 
 
 ## What I did
 - 
