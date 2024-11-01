@@ -3,7 +3,7 @@ title: ""
 weight: 20
 draft: false
 summary: ""
-tags: ["Unity", "Design"]
+tags: ["Unity", "Solo"]
 ---
 <p><img src="featured.png" width="640" height = "360"></p>
 
