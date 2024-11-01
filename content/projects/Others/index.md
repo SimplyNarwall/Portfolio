@@ -14,6 +14,9 @@ This is a paragraph with **bold** and *italic* text.
 Check more at [Blowfish documentation](https://blowfish.page/)
 undefined
 
+{{< article link="projects/Master-dancer/" >}} 
+{{< article link="Master-dancer/" >}} 
+
 {{< article link="others/Armageddon/" >}} 
 
 {{< article link="others/rc/" >}} 
