@@ -5,7 +5,7 @@ draft: false
 summary: "An educational game where you keep your community functional in the face of natural disasters"
 tags: ["Design"]
 ---
-<p><img src="featured.png" width="640" height = "360"></p>
+<p><img src="featured.png" width="900" height = "360"></p>
 
 ## Overview
 - Resilient Community is an educational board game ported to pc. The goal of the game is to keep your community's components safe from hurricanes such that the neighborhoods' power grids stay functional throughout the course of the game.
