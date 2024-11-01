@@ -19,7 +19,7 @@ tags: ["Design"]
 
 
 ## Examples of Work
-<p><img src="throwback.webp" width="640" height = "360"></p>
+<p><img src="throwback.webp" width="480" height = "480"></p>
 
 
 <embed src="Triplight Difficulty.pdf" type="application/pdf" width="900" height="600"/>
