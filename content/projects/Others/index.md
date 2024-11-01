@@ -19,6 +19,8 @@ test
 {{< article link="projects/Master-dancer/" >}} 
 {{< article link="Master-dancer/" >}} 
 
+{{< article link="Portfolio/projectsMaster-dancer/" >}} 
+
 {{< article link="others/Armageddon/" >}} 
 
 {{< article link="others/rc/" >}} 
