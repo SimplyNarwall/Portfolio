@@ -35,4 +35,4 @@ tags: ["Design"]
   <img src="Music Game Game Loop.png"width="960" height="540">
 </picture>
 
-<embed src="resume.pdf" type="application/pdf" width="892" height="842"/>
+<embed src="D.d.2. Music Game Overview v2.docx - Google Docs.pdf" type="application/pdf" width="892" height="842"/>
