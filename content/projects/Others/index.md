@@ -14,17 +14,6 @@ This is a paragraph with **bold** and *italic* text.
 Check more at [Blowfish documentation](https://blowfish.page/)
 undefined
 
-test 1
-
-{{< article link="/projects/master-dancer/" >}} 
-
-test 2
-{{< article link="/master-dancer/" >}} 
-test 3
-
-{{< article link="/Portfolio/projects/master-dancer/" >}} 
-test 4
-
 {{< article link="/Portfolio/others/Armageddon/" >}} 
 
 {{< article link="/Portfolio/others/rc/" >}} 
