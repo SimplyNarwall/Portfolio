@@ -11,15 +11,12 @@ tags: ["Design"]
 - 
 
 ## Team Size/Time constraint
-- Worked as a Designer in a team of 4, over the course of 2 semesters. Currently ongoing.
+- Worked as a Designer in a team of 4. Currently ongoing.
 
 ## What I did
-- 
-<p><img src="btb2.png" width="640" height = "360"></p>
-
-## Link to Game
-
-https://n0va-0.itch.io/bike-the-bullet
+- UI Mockups
+- Sound Design
+- Playtesting/QA
 
 ## Examples of Work
 
