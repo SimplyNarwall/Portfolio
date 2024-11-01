@@ -11,7 +11,7 @@ tags: ["Design"]
 - 
 
 ## Team Size/Time constraint
-- 
+- Worked as a Designer in a team of 4, over the course of 2 semesters. Currently ongoing.
 
 ## What I did
 - 
