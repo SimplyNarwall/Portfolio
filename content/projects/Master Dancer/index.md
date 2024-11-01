@@ -18,6 +18,8 @@ tags: ["Design"]
 - Worked as the lead of design in a team of 6, currently ongoing.
 
 ## What I did
+- Gameplay Design
+- UI design
 - Wrote Systems dictionaries
 - Wrote Systems Breakdowns
 - Wrote Beat-by-Beats
