@@ -1,6 +1,6 @@
 ---
 title: "Resilient Community"
-weight: 19
+weight: 20
 draft: false
 summary: "An educational game where you keep your community functional in the face of natural disasters"
 tags: ["Design"]
