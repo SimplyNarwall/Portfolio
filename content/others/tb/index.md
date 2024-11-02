@@ -1,25 +1,26 @@
 ---
-title: ""
+title: "Triple Blocks"
 weight: 20
 draft: false
-summary: ""
+summary: "A 2d puzzle platformer created in python arcade"
 tags: ["Python", "Design"]
 ---
 <p><img src="featured.png" width="640" height = "360"></p>
 
 ## Overview
-- 
+- A 2d puzzle platformer with a v
 
 ## Team Size/Time constraint
--
+- Team of 4, Completed in 2 weeks.
 
 ## What I did
-- 
-<p><img src="btb2.png" width="640" height = "360"></p>
+- Level Design
+- Programmed UI
+- Programmed Physics (not including the blocks combining)
 
-## Link to Game
+## Link to Repo
 
-https://n0va-0.itch.io/bike-the-bullet
+https://github.com/SimplyNarwall/despacito
 
 ## Examples of Work
 
