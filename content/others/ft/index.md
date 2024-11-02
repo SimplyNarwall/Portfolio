@@ -1,34 +1,23 @@
 ---
-title: ""
-weight: 20
+title: "Phishing Trip"
+weight: 1
 draft: false
-summary: ""
+summary: "A \"Papers Please\" knockoff where you must detect phishing scams"
 tags: ["Design"]
 ---
 <p><img src="featured.png" width="640" height = "360"></p>
 
 ## Overview
-- 
+- A Papers Please knockoff where the goal is to detect scams before you or one of your coworkers gets scammed. Completed as an entry to a cybersecurity game jam.
 
 ## Team Size/Time constraint
--
+- Team of 4, completed in 3 weeks.
 
 ## What I did
-- 
-<p><img src="btb2.png" width="640" height = "360"></p>
+- Wrote fake emails
+- Designed scam types
+- Playtester/QA
 
 ## Link to Game
 
-https://n0va-0.itch.io/bike-the-bullet
-
-## Examples of Work
-
-<picture>
-  <img src="Tutorial Miro.png" width="960" height="540">
-</picture>
-
-<picture>
-  <img src="Music Game Game Loop.png"width="960" height="540">
-</picture>
-
-<embed src="D.d.2. Music Game Overview v2.docx - Google Docs.pdf" type="application/pdf" width="892" height="842"/>
+https://redbluebird.itch.io/phishing-trip
