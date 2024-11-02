@@ -1,1 +1,94 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Others on Portfolio</title><link>https://simplynarwall.github.io/Portfolio/others/</link><description>Recent content in Others on Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>ethan12wang@gmail.com (Ethan Wang)</managingEditor><webMaster>ethan12wang@gmail.com (Ethan Wang)</webMaster><copyright>© 2024 Ethan Wang</copyright><atom:link href="https://simplynarwall.github.io/Portfolio/others/index.xml" rel="self" type="application/rss+xml"/><item><title>Climatic</title><link>https://simplynarwall.github.io/Portfolio/others/climatic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>ethan12wang@gmail.com (Ethan Wang)</author><guid>https://simplynarwall.github.io/Portfolio/others/climatic/</guid><description>A fast paced environmental simulation game</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://simplynarwall.github.io/Portfolio/others/climatic/featured.png"/></item><item><title>Phishing Trip</title><link>https://simplynarwall.github.io/Portfolio/others/ft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>ethan12wang@gmail.com (Ethan Wang)</author><guid>https://simplynarwall.github.io/Portfolio/others/ft/</guid><description>A &amp;ldquo;Papers Please&amp;rdquo; knockoff where you must detect phishing scams</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://simplynarwall.github.io/Portfolio/others/ft/featured.png"/></item><item><title>Square Shuffle</title><link>https://simplynarwall.github.io/Portfolio/others/ss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>ethan12wang@gmail.com (Ethan Wang)</author><guid>https://simplynarwall.github.io/Portfolio/others/ss/</guid><description>A 2d sokoban style puzzle game.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://simplynarwall.github.io/Portfolio/others/ss/featured.png"/></item><item><title>Sticky Stacky Blocks</title><link>https://simplynarwall.github.io/Portfolio/others/sss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>ethan12wang@gmail.com (Ethan Wang)</author><guid>https://simplynarwall.github.io/Portfolio/others/sss/</guid><description>A physics defying, shape shifting puzzle game for the GMTK game jam.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://simplynarwall.github.io/Portfolio/others/sss/featured.png"/></item><item><title>Triple Blocks</title><link>https://simplynarwall.github.io/Portfolio/others/tb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>ethan12wang@gmail.com (Ethan Wang)</author><guid>https://simplynarwall.github.io/Portfolio/others/tb/</guid><description>A 2d puzzle platformer created in python arcade</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://simplynarwall.github.io/Portfolio/others/tb/featured.png"/></item><item><title>Fitness Journey</title><link>https://simplynarwall.github.io/Portfolio/others/fj/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>ethan12wang@gmail.com (Ethan Wang)</author><guid>https://simplynarwall.github.io/Portfolio/others/fj/</guid><description>A dumb ways to die inspired minigame.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://simplynarwall.github.io/Portfolio/others/fj/featured.png"/></item><item><title>Armageddon</title><link>https://simplynarwall.github.io/Portfolio/others/armageddon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>ethan12wang@gmail.com (Ethan Wang)</author><guid>https://simplynarwall.github.io/Portfolio/others/armageddon/</guid><description>A 2d metroidvania style game</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://simplynarwall.github.io/Portfolio/others/armageddon/featured.png"/></item><item><title>Resilient Community</title><link>https://simplynarwall.github.io/Portfolio/others/rc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>ethan12wang@gmail.com (Ethan Wang)</author><guid>https://simplynarwall.github.io/Portfolio/others/rc/</guid><description>An educational game where you keep your community functional in the face of natural disasters</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://simplynarwall.github.io/Portfolio/others/rc/featured.png"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Others on Portfolio</title>
+    <link>http://localhost:1313/Portfolio/others/</link>
+    <description>Recent content in Others on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ethan12wang@gmail.com (Ethan Wang)</managingEditor>
+    <webMaster>ethan12wang@gmail.com (Ethan Wang)</webMaster>
+    <copyright>© 2024 Ethan Wang</copyright>
+    <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Portfolio/others/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Armageddon</title>
+      <link>http://localhost:1313/Portfolio/others/armageddon/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/Portfolio/others/armageddon/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Portfolio/others/armageddon/featured.png" />
+    </item>
+    
+    <item>
+      <title>Climatic</title>
+      <link>http://localhost:1313/Portfolio/others/climatic/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/Portfolio/others/climatic/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Portfolio/others/climatic/featured.png" />
+    </item>
+    
+    <item>
+      <title>Fitness Journey</title>
+      <link>http://localhost:1313/Portfolio/others/fj/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/Portfolio/others/fj/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Portfolio/others/fj/featured.png" />
+    </item>
+    
+    <item>
+      <title>Phishing Trip</title>
+      <link>http://localhost:1313/Portfolio/others/ft/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/Portfolio/others/ft/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Portfolio/others/ft/featured.png" />
+    </item>
+    
+    <item>
+      <title>Resilient Community</title>
+      <link>http://localhost:1313/Portfolio/others/rc/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/Portfolio/others/rc/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Portfolio/others/rc/featured.png" />
+    </item>
+    
+    <item>
+      <title>Square Shuffle</title>
+      <link>http://localhost:1313/Portfolio/others/ss/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/Portfolio/others/ss/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Portfolio/others/ss/featured.png" />
+    </item>
+    
+    <item>
+      <title>Sticky Stacky Blocks</title>
+      <link>http://localhost:1313/Portfolio/others/sss/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/Portfolio/others/sss/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Portfolio/others/sss/featured.png" />
+    </item>
+    
+    <item>
+      <title>Triple Blocks</title>
+      <link>http://localhost:1313/Portfolio/others/tb/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ethan12wang@gmail.com (Ethan Wang)</author>
+      <guid>http://localhost:1313/Portfolio/others/tb/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Portfolio/others/tb/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
