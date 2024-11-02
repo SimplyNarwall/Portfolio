@@ -7,7 +7,7 @@ tags: []
 ---
 Here are some of my other projects. They are here because they are overall older or lower quality than the 3 main ones on the projects page.
 
-{{< article link="/Portfolio/others/Armageddon/" >}} 
+{{< article link="/Portfolio/others/armageddon/" >}} 
 
 {{< article link="/Portfolio/others/rc/" >}} 
 
