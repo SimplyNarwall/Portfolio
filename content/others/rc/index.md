@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Resilient Community"
 weight: 19
 draft: false
 summary: "An educational game where you keep your community functional in the face of natural disasters"
