@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Portfolio</title>
-    <link>http://localhost:1313/Portfolio/tags/python/</link>
-    <description>Recent content in Python on Portfolio</description>
+    <title>Python on Home</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ethan12wang@gmail.com (Ethan Wang)</managingEditor>
     <webMaster>ethan12wang@gmail.com (Ethan Wang)</webMaster>
     <copyright>© 2024 Ethan Wang</copyright>
-    <atom:link href="http://localhost:1313/Portfolio/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Triple Blocks</title>
-      <link>http://localhost:1313/Portfolio/others/tb/</link>
+      <link>http://localhost:1313/others/tb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/Portfolio/others/tb/</guid>
+      <guid>http://localhost:1313/others/tb/</guid>
       <description>A 2d puzzle platformer created in python arcade</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Portfolio/others/tb/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/tb/featured.png" />
     </item>
     
   </channel>
