@@ -1,6 +1,6 @@
 ---
 title: "Armageddon"
-weight: 19
+weight: 18
 draft: false
 summary: "A 2d metroidvania style game"
 tags: ["Unity"]
