@@ -1,6 +1,6 @@
 ---
 title: "Triple Blocks"
-weight: 20
+weight: 16
 draft: false
 summary: "A 2d puzzle platformer created in python arcade"
 tags: ["Python", "Design"]
@@ -24,7 +24,13 @@ https://github.com/SimplyNarwall/despacito
 
 ## Examples of Work
 
+<video width="640" height="360" controls="">
+  <source src="MD demo.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
 <picture>
+
   <img src="Tutorial Miro.png" width="960" height="540">
 </picture>
 
