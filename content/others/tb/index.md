@@ -5,7 +5,7 @@ draft: false
 summary: "A 2d puzzle platformer created in python arcade"
 tags: ["Python", "Design"]
 ---
-<p><img src="featured.png" width="640" height = "360"></p>
+<p><img src="featured.png" width="800" height = "360"></p>
 
 ## Overview
 - A 2d puzzle platformer with a v
@@ -16,7 +16,7 @@ tags: ["Python", "Design"]
 ## What I did
 - Level Design
 - Programmed UI
-- Programmed Physics (not including the blocks combining)
+- Programmed Movement/Physics (not including the blocks combining)
 
 ## Link to Repo
 
