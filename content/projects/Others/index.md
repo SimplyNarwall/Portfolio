@@ -7,18 +7,18 @@ tags: []
 ---
 Here are some of my other projects. They are here because they are overall older or lower quality than the 3 main ones on the projects page.
 
-{{< article link="/others/armageddon/" >}} 
+{{< article link="/Portfolio/others/armageddon/" >}} 
 
-{{< article link="/others/rc/" >}} 
+{{< article link="/Portfolio/others/rc/" >}} 
 
-{{< article link="/others/fj/" >}}
+{{< article link="/Portfolio/others/fj/" >}}
 
-{{< article link="/others/tb/" >}} 
+{{< article link="/Portfolio/others/tb/" >}} 
 
-{{< article link="/others/sss/" >}} 
+{{< article link="/Portfolio/others/sss/" >}} 
 
-{{< article link="/others/Climatic/" >}} 
+{{< article link="/Portfolio/others/Climatic/" >}} 
 
-{{< article link="/others/ss/" >}} 
+{{< article link="/Portfolio/others/ss/" >}} 
 
-{{< article link="/others/ft/" >}}
+{{< article link="/Portfolio/others/ft/" >}}
