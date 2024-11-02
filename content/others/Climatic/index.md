@@ -1,34 +1,21 @@
 ---
 title: "Climatic"
-weight: 10
+weight: 1
 draft: false
-summary: "A "
+summary: "A fast paced environmental simulation game"
 tags: ["Unity"]
 ---
 <p><img src="featured.png" width="640" height = "360"></p>
 
 ## Overview
-- 
+- This is a fast paced simulation game! You, as the manager of this chaotic island, need to guide the local residents to constantly avoid disasters such as fires, snowstorms, and possibly sea level rise.
 
 ## Team Size/Time constraint
--
+- Programmer in a team of 5, working over 4 weeks
 
 ## What I did
-- 
-<p><img src="btb2.png" width="640" height = "360"></p>
+- Programmed tile behaviors
 
 ## Link to Game
 
-https://n0va-0.itch.io/bike-the-bullet
-
-## Examples of Work
-
-<picture>
-  <img src="Tutorial Miro.png" width="960" height="540">
-</picture>
-
-<picture>
-  <img src="Music Game Game Loop.png"width="960" height="540">
-</picture>
-
-<embed src="D.d.2. Music Game Overview v2.docx - Google Docs.pdf" type="application/pdf" width="892" height="842"/>
+https://redbluebird.itch.io/climatic
