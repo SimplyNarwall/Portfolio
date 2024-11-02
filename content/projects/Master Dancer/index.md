@@ -38,7 +38,7 @@ tags: ["Design"]
 </picture>
 
 <picture>
-  <img src="Scanned_Documents (1) (1).pdf"width="960" height="540">
+  <img src="constellations.pdf"width="960" height="540">
 </picture>
 
 <embed src="D.d.2. Music Game Overview v2.docx - Google Docs.pdf" type="application/pdf" width="892" height="842"/>
