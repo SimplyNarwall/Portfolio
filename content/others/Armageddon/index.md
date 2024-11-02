@@ -8,27 +8,16 @@ tags: ["Unity"]
 <p><img src="featured.png" width="640" height = "360"></p>
 
 ## Overview
-- 
+- Armageddon is a fast-paced 2d metroidvania game where the screen is constantly scrolling and you must reach the end of the level while avoiding, or defeating all obstacles in your path. A core mechanic of this game is the ability to destroy all bullets on screen upon defeating an enemy, incentivizing the player to defeat enemies.
 
 ## Team Size/Time constraint
--
+- Was a programmer in a team of 4. Finished in 2 weeks.
 
 ## What I did
-- 
-<p><img src="btb2.png" width="640" height = "360"></p>
+- Programmed Weapon Types
+- Programmed Bullet Manager
+- Designed some levels
 
 ## Link to Game
 
-https://n0va-0.itch.io/bike-the-bullet
-
-## Examples of Work
-
-<picture>
-  <img src="Tutorial Miro.png" width="960" height="540">
-</picture>
-
-<picture>
-  <img src="Music Game Game Loop.png"width="960" height="540">
-</picture>
-
-<embed src="D.d.2. Music Game Overview v2.docx - Google Docs.pdf" type="application/pdf" width="892" height="842"/>
+https://redbluebird.itch.io/armageddon-v2
