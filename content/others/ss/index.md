@@ -1,34 +1,23 @@
 ---
-title: ""
+title: "Square Shuffle"
 weight: 20
 draft: false
-summary: ""
-tags: ["Design"]
+summary: "A 2d sokoban style puzzle game."
+tags: ["Unity", "Design"]
 ---
 <p><img src="featured.png" width="640" height = "360"></p>
 
 ## Overview
-- 
+- A turn based sokoban style game, alongside some enemies that are trying to kill you. Overall a very simple and barebones game.
 
 ## Team Size/Time constraint
--
+- Programmer and level designer in a team of 4. Took 2 weeks to complete.
 
 ## What I did
-- 
-<p><img src="btb2.png" width="640" height = "360"></p>
+- Level Design
+- Playtesting
+- Programmed UI
 
 ## Link to Game
 
-https://n0va-0.itch.io/bike-the-bullet
-
-## Examples of Work
-
-<picture>
-  <img src="Tutorial Miro.png" width="960" height="540">
-</picture>
-
-<picture>
-  <img src="Music Game Game Loop.png"width="960" height="540">
-</picture>
-
-<embed src="D.d.2. Music Game Overview v2.docx - Google Docs.pdf" type="application/pdf" width="892" height="842"/>
+https://redbluebird.itch.io/square-shuffle
