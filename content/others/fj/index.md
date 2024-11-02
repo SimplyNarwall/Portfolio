@@ -1,34 +1,22 @@
 ---
-title: ""
-weight: 20
+title: "Fitness Journey"
+weight: 18
 draft: false
-summary: ""
+summary: "A dumb ways to die inspired minigame."
 tags: ["Unity", "Solo"]
 ---
 <p><img src="featured.png" width="640" height = "360"></p>
 
 ## Overview
-- 
+- This is a dumb ways to die inspired minigame, completed as an entry for the Gamebuilders 2023 Game Jam. It's not very good.
 
 ## Team Size/Time constraint
--
+- Solo developer, completed in 24 hours.
 
 ## What I did
-- 
-<p><img src="btb2.png" width="640" height = "360"></p>
+- Make the game.
+
 
 ## Link to Game
 
-https://n0va-0.itch.io/bike-the-bullet
-
-## Examples of Work
-
-<picture>
-  <img src="Tutorial Miro.png" width="960" height="540">
-</picture>
-
-<picture>
-  <img src="Music Game Game Loop.png"width="960" height="540">
-</picture>
-
-<embed src="D.d.2. Music Game Overview v2.docx - Google Docs.pdf" type="application/pdf" width="892" height="842"/>
+https://simplynarwall.itch.io/fitness-journey
