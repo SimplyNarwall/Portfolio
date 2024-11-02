@@ -1,34 +1,25 @@
 ---
-title: ""
-weight: 20
+title: "Sticky Stacky Blocks"
+weight: 15
 draft: false
-summary: ""
+summary: "A physics defying, shape shifting puzzle game for the GMTK game jam."
 tags: ["Unity", "Design"]
 ---
 <p><img src="featured.png" width="800" height = "360"></p>
 
 ## Overview
-- 
+- A 2d puzzle game where you control a collection of blocks which interact in strange, physics defing ways with their surroundings.
 
 ## Team Size/Time constraint
--
+- Programmer/Designer in a team of 4, created over 2 days.
 
 ## What I did
-- 
-<p><img src="btb2.png" width="640" height = "360"></p>
+- Overall Gameplay design
+- Tile/Physics behavior
+- Level Design
+- Programmed UI
+
 
 ## Link to Game
 
-https://n0va-0.itch.io/bike-the-bullet
-
-## Examples of Work
-
-<picture>
-  <img src="Tutorial Miro.png" width="960" height="540">
-</picture>
-
-<picture>
-  <img src="Music Game Game Loop.png"width="960" height="540">
-</picture>
-
-<embed src="D.d.2. Music Game Overview v2.docx - Google Docs.pdf" type="application/pdf" width="892" height="842"/>
+https://redbluebird.itch.io/sticky-stacky-blocks
