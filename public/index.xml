@@ -2,140 +2,140 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home</title>
-    <link>http://localhost:1313/Home/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ethan12wang@gmail.com (Ethan Wang)</managingEditor>
     <webMaster>ethan12wang@gmail.com (Ethan Wang)</webMaster>
     <copyright>© 2024 Ethan Wang</copyright>
-    <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Home/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Climatic</title>
-      <link>http://localhost:1313/Home/others/climatic/</link>
+      <link>http://localhost:1313/others/climatic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/Home/others/climatic/</guid>
+      <guid>http://localhost:1313/others/climatic/</guid>
       <description>A fast paced environmental simulation game</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Home/others/climatic/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/climatic/featured.png" />
     </item>
     
     <item>
       <title>Others</title>
-      <link>http://localhost:1313/Home/projects/others/</link>
+      <link>http://localhost:1313/projects/others/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/Home/projects/others/</guid>
+      <guid>http://localhost:1313/projects/others/</guid>
       <description>Other projects I have finished/helped created</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Home/projects/others/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/others/featured.png" />
     </item>
     
     <item>
       <title>Phishing Trip</title>
-      <link>http://localhost:1313/Home/others/ft/</link>
+      <link>http://localhost:1313/others/ft/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/Home/others/ft/</guid>
+      <guid>http://localhost:1313/others/ft/</guid>
       <description>A &amp;ldquo;Papers Please&amp;rdquo; knockoff where you must detect phishing scams</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Home/others/ft/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/ft/featured.png" />
     </item>
     
     <item>
       <title>Bike the Bullet</title>
-      <link>http://localhost:1313/Home/projects/bike-the-bullet/</link>
+      <link>http://localhost:1313/projects/bike-the-bullet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/Home/projects/bike-the-bullet/</guid>
+      <guid>http://localhost:1313/projects/bike-the-bullet/</guid>
       <description>A 2d shoot em&amp;rsquo; up style game created in 3 days for MonkeyJam 2024</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Home/projects/bike-the-bullet/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/bike-the-bullet/featured.png" />
     </item>
     
     <item>
       <title>Triplight</title>
-      <link>http://localhost:1313/Home/projects/triplight/</link>
+      <link>http://localhost:1313/projects/triplight/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/Home/projects/triplight/</guid>
+      <guid>http://localhost:1313/projects/triplight/</guid>
       <description>A mind bending sokoban style 2d laser based puzzle game</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Home/projects/triplight/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/triplight/featured.png" />
     </item>
     
     <item>
       <title>Master Dancer</title>
-      <link>http://localhost:1313/Home/projects/master-dancer/</link>
+      <link>http://localhost:1313/projects/master-dancer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/Home/projects/master-dancer/</guid>
+      <guid>http://localhost:1313/projects/master-dancer/</guid>
       <description>A VR experienced which aims to teach the player about Loie Fuller, and to become a Master Dancer</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Home/projects/master-dancer/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/master-dancer/featured.png" />
     </item>
     
     <item>
       <title>Square Shuffle</title>
-      <link>http://localhost:1313/Home/others/ss/</link>
+      <link>http://localhost:1313/others/ss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/Home/others/ss/</guid>
+      <guid>http://localhost:1313/others/ss/</guid>
       <description>A 2d sokoban style puzzle game.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Home/others/ss/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/ss/featured.png" />
     </item>
     
     <item>
       <title>Sticky Stacky Blocks</title>
-      <link>http://localhost:1313/Home/others/sss/</link>
+      <link>http://localhost:1313/others/sss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/Home/others/sss/</guid>
+      <guid>http://localhost:1313/others/sss/</guid>
       <description>A physics defying, shape shifting puzzle game for the GMTK game jam.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Home/others/sss/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/sss/featured.png" />
     </item>
     
     <item>
       <title>Triple Blocks</title>
-      <link>http://localhost:1313/Home/others/tb/</link>
+      <link>http://localhost:1313/others/tb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/Home/others/tb/</guid>
+      <guid>http://localhost:1313/others/tb/</guid>
       <description>A 2d puzzle platformer created in python arcade</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Home/others/tb/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/tb/featured.png" />
     </item>
     
     <item>
       <title>Fitness Journey</title>
-      <link>http://localhost:1313/Home/others/fj/</link>
+      <link>http://localhost:1313/others/fj/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/Home/others/fj/</guid>
+      <guid>http://localhost:1313/others/fj/</guid>
       <description>A dumb ways to die inspired minigame.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Home/others/fj/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/fj/featured.png" />
     </item>
     
     <item>
       <title>Armageddon</title>
-      <link>http://localhost:1313/Home/others/armageddon/</link>
+      <link>http://localhost:1313/others/armageddon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/Home/others/armageddon/</guid>
+      <guid>http://localhost:1313/others/armageddon/</guid>
       <description>A 2d metroidvania style game</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Home/others/armageddon/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/armageddon/featured.png" />
     </item>
     
     <item>
       <title>Resilient Community</title>
-      <link>http://localhost:1313/Home/others/rc/</link>
+      <link>http://localhost:1313/others/rc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/Home/others/rc/</guid>
+      <guid>http://localhost:1313/others/rc/</guid>
       <description>An educational game where you keep your community functional in the face of natural disasters</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/Home/others/rc/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/others/rc/featured.png" />
     </item>
     
     <item>
       <title>Resume</title>
-      <link>http://localhost:1313/Home/resume/</link>
+      <link>http://localhost:1313/resume/</link>
       <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
       <author>ethan12wang@gmail.com (Ethan Wang)</author>
-      <guid>http://localhost:1313/Home/resume/</guid>
+      <guid>http://localhost:1313/resume/</guid>
       <description></description>
       
     </item>
