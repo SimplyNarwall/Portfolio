@@ -26,9 +26,6 @@ https://rogerw.itch.io/triplight
 
 ## Examples of Work
 
-- Level I created
-<p><img src="throwback.webp" width="480" height = "480"></p>
-
 - Spreadsheet of the difficulty of each level
 <embed src="Triplight Difficulty.pdf" type="application/pdf" width="900" height="600"/>
 
