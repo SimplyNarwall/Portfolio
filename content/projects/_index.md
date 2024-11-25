@@ -1,12 +1,6 @@
 ---
-title: "projects"
+title: "Projects"
 description: ""
-
-cascade:
-  showDate: false
-  showAuthor: false
-  invertPagination: true
-
 ---
 
 
