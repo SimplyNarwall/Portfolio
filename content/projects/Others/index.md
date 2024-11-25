@@ -17,7 +17,7 @@ Here are some of my other projects. They are here because they are overall older
 
 {{< article link="/Portfolio/others/sss/" >}} 
 
-{{< article link="/Portfolio/others/Climatic/" >}} 
+{{< article link="/Portfolio/others/climatic/" >}} 
 
 {{< article link="/Portfolio/others/ss/" >}} 
 
