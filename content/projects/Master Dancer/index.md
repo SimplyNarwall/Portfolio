@@ -34,11 +34,6 @@ tags: ["Design"]
   <img src="Tutorial Miro.png" width="960" height="540">
 </picture>
 
-- Mockup of player reward system where they draw constellations as they complete the level
-<picture>
-  <img src="const.png" width="480" height="640">
-</picture>
-
 - Flowchart of game loop for a minigame
 <picture>
   <img src="Music Game Game Loop.png" width="960" height="540">
