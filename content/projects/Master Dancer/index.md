@@ -19,13 +19,8 @@ tags: ["Design"]
 
 ## What I did
 - Gameplay Design
-- UI design
-- Wrote Systems dictionaries
-- Wrote Systems Breakdowns
-- Wrote Beat-by-Beats
-- Created Game Loops
-- Made High level Flow charts
-- Made Art References/Mockups
+- Technical Design
+- UX Design
 
 ## Examples of Work
 
