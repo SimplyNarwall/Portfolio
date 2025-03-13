@@ -1,7 +1,7 @@
 
 [[main]]
 name = "Home"
-url = "layouts/partials/home"
+pageRef = "layouts/partials/home"
 weight = 1
 
 
