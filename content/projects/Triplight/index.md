@@ -11,18 +11,17 @@ tags: ["Design"]
 ## Overview
 - Triplight is a sokoban style 2d turn based puzzle game centering around the idea of lasers. The goal of each level is to reach the flag at the end by passing through lasers, crates and a variety of other obstacles. As you complete levels, more mechanics continue to be gradually added to create a variety of fun, interesting, and challenging levels.
 
+## Link to Game
+
+https://rogerw.itch.io/triplight
+
 ## Team Size/Time constraint
 - Was a designer in a team of ~20 over the course of a semester
 
 ## What I did
 - Level Design
 - Adjusted Level Progression
-- Playtesting/QA testing
-- UI mockups
-
-## Link to Game
-
-https://rogerw.itch.io/triplight
+- QA testing
 
 ## Examples of Work
 
