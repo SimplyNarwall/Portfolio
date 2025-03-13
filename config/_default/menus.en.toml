@@ -1,7 +1,7 @@
 
 [[main]]
 name = "Home"
-pageRef = "homepage"
+url = baseURL
 weight = 1
 
 
