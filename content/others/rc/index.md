@@ -18,8 +18,6 @@ tags: ["Design"]
 - Sound Design
 - Playtesting/QA
 
-## Examples of Work
-
 <picture>
   <img src="ingame.png"width="960" height="540">
 </picture>
