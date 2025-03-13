@@ -15,6 +15,7 @@ tags: ["Design"]
 
 ## What I did
 - UI Mockups
+- UX Design
 - Sound Design
 - Playtesting/QA
 
