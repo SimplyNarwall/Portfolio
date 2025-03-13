@@ -1,7 +1,7 @@
 
 [[main]]
 name = "Home"
-pageRef = "portfolio/~"
+pageRef = ""
 weight = 1
 
 
