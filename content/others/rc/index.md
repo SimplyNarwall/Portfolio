@@ -21,13 +21,5 @@ tags: ["Design"]
 ## Examples of Work
 
 <picture>
-  <img src="components mockup.jpg" width="540" height="960">
-</picture>
-
-<picture>
-  <img src="UI mockup.jpg"width="960" height="540">
-</picture>
-
-<picture>
   <img src="ingame.png"width="960" height="540">
 </picture>
