@@ -1,14 +1,21 @@
+
+[[main]]
+name = "Home"
+pageRef = "portfolio"
+weight = 1
+
+
 [[main]]
 name = "Projects"
 pageRef = "projects"
 identifier = "2jOMxSC9At"
-weight = 1
+weight = 2
 
 [[main]]
 name = "Resume"
 pageRef = "resume"
 identifier = "NGSdgIHFBb"
-weight = 2
+weight = 3
 
 [[footer]]
 none = "none"
