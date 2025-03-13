@@ -1,7 +1,7 @@
 
 [[main]]
 name = "Home"
-url = baseURL
+url = "/.."
 weight = 1
 
 
