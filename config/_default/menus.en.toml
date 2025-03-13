@@ -1,7 +1,7 @@
 
 [[main]]
 name = "Home"
-url = "https://simplynarwall.github.io/Portfolio/"
+pageRef = "/../layout/partials/home"
 weight = 1
 
 
