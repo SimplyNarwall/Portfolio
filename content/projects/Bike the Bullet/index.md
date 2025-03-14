@@ -22,7 +22,12 @@ https://n0va-0.itch.io/bike-the-bullet
 - Designed weapon types, enemy movement and attack patterns
 - Programmed nearly the entire game using Unity.
 
-##
+## Core Pillars
+-
+-
+-
+
+## Notable features
 
 # Power ups
 Player collects a power up to give them a new explosive attack<p><img src="powerup.gif" width="640" height = "360"></p>
