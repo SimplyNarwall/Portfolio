@@ -22,12 +22,13 @@ https://n0va-0.itch.io/bike-the-bullet
 - Designed weapon types, enemy movement and attack patterns
 - Programmed nearly the entire game using Unity.
 
-## Core Pillars
--
--
--
+## Core Goals
+- Follow the themes: Cycling (the game jam theme), &  CDawgVA (The who hosted the game jam).
+- Create a game with immediate impact on players.
+- Create a simple game that anyone can enjoy and succeed in.
 
 ## Notable features
+
 
 ### Power ups
 Player collects a power up to give them a new explosive attack<p><img src="powerup.gif" width="640" height = "360"></p>
