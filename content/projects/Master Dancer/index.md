@@ -22,6 +22,30 @@ tags: ["Design"]
 - Technical Design
 - UX Design
 
+
+## Star Maker
+
+### Core Pillars
+
+### Notable Features
+
+#### Orb Trajectory
+
+#### Loop System
+
+## Music Game
+
+### Core Pillars
+
+### Notable Features
+
+#### Orb Charging
+
+#### Visual Indicators
+
+#### Limited Arc
+
+
 ## Examples of Work
 
 - Mockup/Art Reference for some of the tutorial systems.
