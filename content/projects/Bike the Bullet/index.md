@@ -35,6 +35,6 @@ The player defeats a minion, and the boss throws the now vacant motorcycle at th
   
 </p>
 
-After all of the boss' minions are dead, they tke matters into their own hands
+After all of the boss' minions are dead, they take matters into their own hands
 <p><img src="screech.gif" width="640" height = "360"></p>
 
