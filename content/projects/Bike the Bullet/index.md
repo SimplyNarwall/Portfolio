@@ -25,16 +25,16 @@ https://n0va-0.itch.io/bike-the-bullet
 ##
 
 # Power ups
-![Player collects a power up to give them a new explosive attack]<p><img src="powerup.gif" width="640" height = "360"></p>
+Player collects a power up to give them a new explosive attack<p><img src="powerup.gif" width="640" height = "360"></p>
 
 
 # Boss fight
-
+The player defeats a minion, and the boss throws the now vacant motorcycle at them
 <p>
   <img src="motorcycle.gif" width="640" height = "360">
-  The player defeats a minion, and the boss throws the now vacant motorcycle at them
+  
 </p>
 
-
+After all of the boss' minions are dead, they tke matters into their own hands
 <p><img src="screech.gif" width="640" height = "360"></p>
-*After all of the boss' minions are dead, they tke matters into their own hands*
+
