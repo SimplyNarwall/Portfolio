@@ -22,5 +22,16 @@ https://n0va-0.itch.io/bike-the-bullet
 - Designed weapon types, enemy movement and attack patterns
 - Programmed nearly the entire game using Unity.
 
-<p><img src="btb2.png" width="640" height = "360"></p>
+##
 
+# Power ups
+<p><img src="powerup.gif" width="640" height = "360"></p>
+*Player collects a power up to give them a new explosive attack*
+
+# Boss fight
+
+<p><img src="motorcycle.gif" width="640" height = "360"></p>
+*The player defeats a minion, and the boss throws the now vacant motorcycle at them*
+
+<p><img src="screech.gif" width="640" height = "360"></p>
+*After all of the boss' minions are dead, they tke matters into their own hands*
