@@ -46,5 +46,5 @@ After all of the boss' minions are dead, they take matters into their own hands
 <p><img src="screech.gif" width="640" height = "360"></p>
 
 ## GDD
-Here is the rough one-pager I created while developing the game.
+Here is are the rough design documents I created while developing the game.
 
