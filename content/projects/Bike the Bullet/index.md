@@ -48,4 +48,4 @@ After all of the boss' minions are dead, they take matters into their own hands
 ## GDD
 Here is are the rough design documents I created while developing the game.
 
-<embed src="r" type="application/pdf" width="892" height="842"/>
+<embed src="Monkey Jam 2024 GDD - Google Docs.pdf" type="application/pdf" width="892" height="842"/>
