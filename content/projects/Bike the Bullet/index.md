@@ -29,11 +29,11 @@ https://n0va-0.itch.io/bike-the-bullet
 
 ## Notable features
 
-# Power ups
+### Power ups
 Player collects a power up to give them a new explosive attack<p><img src="powerup.gif" width="640" height = "360"></p>
 
 
-# Boss fight
+### Boss fight
 The player defeats a minion, and the boss throws the now vacant motorcycle at them
 <p>
   <img src="motorcycle.gif" width="640" height = "360">
