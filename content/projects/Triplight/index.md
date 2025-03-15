@@ -24,13 +24,15 @@ https://rogerw.itch.io/triplight
 - QA testing
 
 ## Examples of Work
+Level C13, focused on combining classic Sokoban with the key features unique to our game. 
 <video width="640" height="360" controls="">
-  <source src="MD demo.mp4" type="video/mov" />
+  <source src="Claustrophobia.mov" type="video/mov" />
   Your browser does not support the video tag.
 </video>
 
+Level C15, focused on laser and mirror interactions.
 <video width="640" height="360" controls="">
-  <source src="MD demo.mp4" type="video/mov" />
+  <source src="Roundabout.mov" type="video/mov" />
   Your browser does not support the video tag.
 </video>
 
