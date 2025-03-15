@@ -38,6 +38,6 @@ In phase 2 of the boss, he unleashes massive radial attacks.
 <p><img src="screech.gif" width="640" height = "360"></p>
 
 ## GDD
-Here is are the rough design documents I created while developing the game.
+Here is the rough design document I created while developing the game.
 
 <embed src="Monkey Jam 2024 GDD - Google Docs.pdf" type="application/pdf" width="892" height="842"/>
