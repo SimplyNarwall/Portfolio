@@ -18,7 +18,7 @@ tags: ["Design"]
 - Worked as the lead of design in a team of 9, starting in Oct 2024, currently ongoing.
 
 ## What I did
-- Lead Designer, several design disciplines such as Mechanics, Technical, UX, QA etc.
+- Lead Designer, worked in several design disciplines such as Mechanics, Technical, UX, QA etc.
 - Authored 20+ design documents, including Gameplay Loops, Feature Breakdowns, Asset Lists, etc.
 
 ## Star Maker
