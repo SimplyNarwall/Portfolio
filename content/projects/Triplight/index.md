@@ -1,6 +1,6 @@
 ---
 title: "Triplight"
-weight: 3
+weight: 2
 draft: false
 summary: "A mind bending sokoban style 2d laser based puzzle game"
 tags: ["Design"]
