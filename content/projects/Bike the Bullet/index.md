@@ -21,21 +21,13 @@ https://n0va-0.itch.io/bike-the-bullet
 - Wrote GDD summary
 - Designed weapon types, enemy movement and attack patterns
 - Programmed nearly the entire game using Unity.
+- Led team by assigning tasks and organizing work/design meetings
 
-## Core Goals
-- Follow the themes: Cycling (the game jam theme), &  CDawgVA (The who hosted the game jam).
-- Create a game with immediate impact on players.
-- Create a simple game that anyone can enjoy and succeed in.
+## Gameplay Samples
 
-To follow these core goals, we decided to create a simple cycling shoot 'em up game with streamer themed power ups. The game is complete with a riveting plot, striking stylized artstyle, a mafia gang composed of vehicle riding animals, and a boss so large he doesn't even fit on screen.
-
-## Notable features
-
-### Power ups
 Player collects a power up to give them a new explosive attack based on Chris Broad, a friend of CDawgVA with an obsession with fried chicken.<p><img src="powerup.gif" width="640" height = "360"></p>
 
 
-### Boss fight
 The player defeats a minion, and the boss throws the now vacant motorcycle at them
 <p>
   <img src="motorcycle.gif" width="640" height = "360">
