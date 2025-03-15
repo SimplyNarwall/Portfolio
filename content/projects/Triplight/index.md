@@ -24,13 +24,13 @@ https://rogerw.itch.io/triplight
 - Designed levels, both as capstone challenges and to smooth out progression curves.
 
 ## Gameplay/Work Samples
-Level C13, focused on combining classic Sokoban with the key features unique to our game. 
+Solution to level C13, focused on combining classic Sokoban with the key features unique to our game. 
 <video width="640" height="360" controls="">
   <source src="Claustrophobia.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
-Level C15, focused on laser and mirror interactions.
+Solution to level C15, focused on laser and mirror interactions.
 <video width="640" height="360" controls="">
   <source src="Roundabout.mp4" type="video/mp4" />
   Your browser does not support the video tag.
