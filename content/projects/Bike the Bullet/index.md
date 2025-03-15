@@ -25,16 +25,16 @@ https://n0va-0.itch.io/bike-the-bullet
 
 ## Gameplay Samples
 
-Player collects a power up to give them a new explosive attack based on Chris Broad, a friend of CDawgVA with an obsession with fried chicken.<p><img src="powerup.gif" width="640" height = "360"></p>
+Players can collects power ups to give them stronger attacks. This one is an explosive attack, based off a friend of CDawgVA who has an obsession with fried chicken.<p><img src="powerup.gif" width="640" height = "360"></p>
 
 
-The player defeats a minion, and the boss throws the now vacant motorcycle at them
+In phase 1 of the boss, the player fights against the boss' lackeys. Be wary of when you defeat them, as the boss can use their vacant motorcycles as deadly projectiles.
 <p>
   <img src="motorcycle.gif" width="640" height = "360">
   
 </p>
 
-After all of the boss' minions are dead, they take matters into their own hands
+In phase 2 of the boss, he unleashes massive radial attacks.
 <p><img src="screech.gif" width="640" height = "360"></p>
 
 ## GDD
