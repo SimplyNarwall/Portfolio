@@ -19,9 +19,9 @@ https://rogerw.itch.io/triplight
 - Was a designer in a team of ~20 over the course of a semester
 
 ## What I did
-- Level Design
-- Adjusted Level Progression
-- QA testing
+- Did QA and playtesting for every level of the game.
+- Created and adjusted level progression according to playtests.
+- Designed levels, both as capstone challenges and to smooth out progression curves.
 
 ## Gameplay/Work Samples
 Level C13, focused on combining classic Sokoban with the key features unique to our game. 
