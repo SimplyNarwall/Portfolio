@@ -28,7 +28,7 @@ https://n0va-0.itch.io/bike-the-bullet
 Players can collects power ups to give them stronger attacks. This one is an explosive attack, based off a friend of CDawgVA who has an obsession with fried chicken.<p><img src="powerup.gif" width="640" height = "360"></p>
 
 
-In phase 1 of the boss, the player fights against the boss' lackeys. Be wary of when you defeat them, as the boss can use their vacant motorcycles as deadly projectiles.
+In phase 1 of the boss, the player fights against the boss' top brass. Be wary of when you defeat them, as the boss can use their vacant motorcycles as deadly projectiles.
 <p>
   <img src="motorcycle.gif" width="640" height = "360">
   
