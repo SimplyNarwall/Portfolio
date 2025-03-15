@@ -51,11 +51,11 @@ tags: ["Design"]
   <img src="Tutorial Miro.png" width="960" height="540">
 </picture>
 
-- Flowchart of game loop for a minigame
+- Flowchart of game loop for Music Roundabout
 <picture>
   <img src="Music Game Game Loop.png" width="960" height="540">
 </picture>
 
-- Detailed breakdown of minigame
+- Detailed breakdown of Music Roundabout
 <embed src="D.d.2. Music Game Overview v2.docx - Google Docs.pdf" type="application/pdf" width="892" height="842"/>
 
