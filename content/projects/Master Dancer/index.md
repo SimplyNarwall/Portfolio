@@ -22,20 +22,23 @@ tags: ["Design"]
 - Authored 20+ design documents, including Gameplay Loops, Feature Breakdowns, Asset Lists, etc.
 
 ## Star Maker
-
-### Core Pillars
+Star maker is one of the minigames meant to teach players dance principles. In this game, players must hit orbs flying at them towards targets in time with the music. The core design pillars of Star Maker are to teach players to do strong, direct movements, have players feel in tune with the music, and to be very forgiving in gameplay.
 
 ### Notable Features
+- Designed an orb trajectory prediction system so that the orb accurately hits targets from the player's perspective. 
+- Designed an Aim Assist feature to make game feel more satisfying. The assist is linearly curved so that wildly inaccurate hit will remain that way, strength adjusted through multiple playtest sessions.
+- Designed a music looping system in order to give players multiple tries while maintaining the musicality of the game.
 
 #### Orb Trajectory
 
 #### Loop System
 
-## Music Game
-
-### Core Pillars
+## Music Roundabout
+Music Roundabout (called Music Game while in development) is another minigame meant to teach players dance principles. In this game, players will activate orbs which rotate around them, creating a melody. The core design pillars of Music Roundabout are to teach players twisting motion, as well as a light tapping motion. In addition, players should feel as though they are creating music as they play.
 
 ### Notable Features
+- Designed an orb charging system to incentivize players to move and twist naturally.
+- Designed visual indicators for players to know when to activate orbs, even with no sound.
 
 #### Orb Charging
 
