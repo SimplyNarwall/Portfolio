@@ -23,7 +23,7 @@ https://rogerw.itch.io/triplight
 - Adjusted Level Progression
 - QA testing
 
-## Examples of Work
+## Gameplay/Work Samples
 Level C13, focused on combining classic Sokoban with the key features unique to our game. 
 <video width="640" height="360" controls="">
   <source src="Claustrophobia.mp4" type="video/mp4" />
