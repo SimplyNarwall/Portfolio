@@ -25,9 +25,6 @@ https://rogerw.itch.io/triplight
 
 ## Examples of Work
 
-- Spreadsheet of the difficulty of each level
-<embed src="Triplight Difficulty.pdf" type="application/pdf" width="900" height="600"/>
-
 - Proposed level order based on level difficulty and content
 <embed src="triplight level order.pdf" type="application/pdf" width="900" height="600"/>
 
