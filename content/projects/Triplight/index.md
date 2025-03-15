@@ -24,6 +24,16 @@ https://rogerw.itch.io/triplight
 - QA testing
 
 ## Examples of Work
+<video width="640" height="360" controls="">
+  <source src="MD demo.mp4" type="video/mov" />
+  Your browser does not support the video tag.
+</video>
+
+<video width="640" height="360" controls="">
+  <source src="MD demo.mp4" type="video/mov" />
+  Your browser does not support the video tag.
+</video>
+
 
 - Proposed level order based on level difficulty and content
 <embed src="triplight level order.pdf" type="application/pdf" width="900" height="600"/>
