@@ -25,8 +25,8 @@ tags: ["Design"]
 Star maker is one of the minigames meant to teach players dance principles. In this game, players must hit orbs flying at them towards targets in time with the music. The core design pillars of Star Maker are to teach players to do strong, direct movements, have players feel in tune with the music, and to be very forgiving in gameplay.
 
 ### Notable Features
-- Designed an orb trajectory prediction system so that the orb accurately hits targets from the player's perspective. 
-- Designed an Aim Assist feature to make game feel more satisfying. The assist is linearly curved so that wildly inaccurate hit will remain that way, strength adjusted through multiple playtest sessions.
+- Designed an orb trajectory prediction system so that the orb hits targets when it appears to from the player's perspective. 
+- Designed an aim assist feature to make game feel more satisfying. The strength is linearly curved so that wildly inaccurate hit will still be very off, while closer hits will hit the target. Adjusted aim assist strength through multiple playtest sessions.
 - Designed a music looping system in order to give players multiple tries while maintaining the musicality of the game.
 
 #### Orb Trajectory
