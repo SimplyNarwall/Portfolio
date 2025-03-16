@@ -54,6 +54,11 @@ Music Roundabout (called Music Game while in development) is another minigame me
   <img src="Tutorial Miro.png" width="960" height="540">
 </picture>
 
+- Art reference board for the "Hub Room" of the game.
+<picture>
+  <img src="Hub Room Art Board.png" width="960" height="540">
+</picture>
+
 - Flowchart of game loop for Music Roundabout
 <picture>
   <img src="Music Game Game Loop.png" width="960" height="540">
