@@ -1,6 +1,6 @@
 ---
 title: "Fitness Journey"
-weight: 18
+weight: 6
 draft: false
 summary: "A dumb ways to die inspired minigame."
 tags: ["Unity", "Solo"]

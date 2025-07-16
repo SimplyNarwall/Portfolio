@@ -1,6 +1,6 @@
 ---
 title: "Triple Blocks"
-weight: 16
+weight: 5
 draft: false
 summary: "A 2d puzzle platformer created in python arcade"
 tags: ["Python", "Design"]

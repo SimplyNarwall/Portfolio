@@ -1,6 +1,6 @@
 ---
 title: "Square Shuffle"
-weight: 10
+weight: 2
 draft: false
 summary: "A 2d sokoban style puzzle game."
 tags: ["Unity", "Design"]

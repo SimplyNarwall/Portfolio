@@ -15,7 +15,7 @@ tags: ["Design"]
 
 ## What I did
 - Wrote fake emails
-- Designed scam types
+- Designed puzzle types
 - Playtester/QA
 
 ## Link to Game

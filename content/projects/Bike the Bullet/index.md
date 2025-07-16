@@ -1,6 +1,6 @@
 ---
 title: "Bike the Bullet"
-weight: 3
+weight: 10
 draft: false
 summary: "A 2d shoot em' up style game created in 3 days for MonkeyJam 2024"
 tags: ["Design", "Unity"]

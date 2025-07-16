@@ -1,6 +1,6 @@
 ---
 title: "Sticky Stacky Blocks"
-weight: 15
+weight: 4
 draft: false
 summary: "A physics defying, shape shifting puzzle game for the GMTK game jam."
 tags: ["Unity", "Design"]
