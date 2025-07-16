@@ -7,9 +7,6 @@ tags: ["Python", "Design"]
 ---
 <p><img src="featured.png" width="800" height = "360"></p>
 
-## Overview
-- A 2d puzzle platformer where you control 3 separate characters to traverse various levels. These characters can sometimes combine to perform certain actions necessary to complete levels, and at other times must separate to complete multiple tasks at once. Likely broken due to updates to the library.
-
 ## Team Size/Time constraint
 - Team of 4, Completed in 2 weeks.
 
@@ -21,6 +18,9 @@ tags: ["Python", "Design"]
 ## Link to Repo
 
 https://github.com/SimplyNarwall/despacito
+
+## Game Overview
+- A 2d puzzle platformer where you control 3 separate characters to traverse various levels. These characters can sometimes combine to perform certain actions necessary to complete levels, and at other times must separate to complete multiple tasks at once. Likely broken due to updates to the library.
 
 ## Examples of Work
 
