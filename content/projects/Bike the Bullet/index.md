@@ -7,8 +7,6 @@ tags: ["Design", "Unity"]
 ---
 <p><img src="btbmm.png" width="640" height = "360"></p>
 
-## Overview
-- Bike the Bullet is a fast-paced 2d shoot em' up created for MonkeyJam2024. You play as popular Twitch Streamer CDawgVA and you have been tasked by the God of Bike to defeat Boss Grizzle and his goons. With anthromorphic animals and bikes and weapons/voicelines inspired by Connor and his friends, Bike the Bullet is a short but fun and challenging time waster.
 
 ## Link to Game
 
@@ -22,6 +20,10 @@ https://n0va-0.itch.io/bike-the-bullet
 - Designed weapon types, enemy movement and attack patterns
 - Programmed nearly the entire game using Unity.
 - Led team by assigning tasks and organizing work/design meetings
+
+## Game Overview
+- Bike the Bullet is a fast-paced 2d shoot em' up created for MonkeyJam2024. You play as popular Twitch Streamer CDawgVA and you have been tasked by the God of Bike to defeat Boss Grizzle and his goons. With anthromorphic animals and bikes and weapons/voicelines inspired by Connor and his friends, Bike the Bullet is a short but fun and challenging time waster.
+
 
 ## Gameplay Samples
 

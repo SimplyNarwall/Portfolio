@@ -11,15 +11,16 @@ tags: ["Design"]
   Your browser does not support the video tag.
 </video>
 
-## Overview
-- In Master Dancer, you meet the famous dancer Loïe Fuller, the first to integrate technology into modern dance. As a player, you engage in action games to learn her movement principles and, guided by Virtual Loïe, explore her world. You will use modern VR technology to create your own unique dance, becoming a Master Dancer yourself!
-
 ## Team Size/Time constraint
 - Worked as the lead of design in a team of 9, starting in Oct 2024, currently ongoing.
 
 ## What I did
-- Lead Designer, working in several design disciplines such as Mechanics, Technical, UX, QA etc.
+- Lead all design decisions, working in several design disciplines such as Mechanics, Technical, UX, QA etc.
 - Authored 20+ design documents, including Gameplay Loops, Feature Breakdowns, Asset Lists, etc.
+- Worked in Unreal Engine to implement and balance level designs
+
+## Game Overview
+- In Master Dancer, you meet the famous dancer Loïe Fuller, the first to integrate technology into modern dance. As a player, you engage in action games to learn her movement principles and, guided by Virtual Loïe, explore her world. You will use modern VR technology to create your own unique dance, becoming a Master Dancer yourself!
 
 ## Star Maker
 Star maker is one of the minigames meant to teach players dance principles. In this game, players must hit orbs flying at them towards targets in time with the music. The core design pillars of Star Maker are to teach players to do strong, direct movements, have players feel in tune with the music, and to be very forgiving in gameplay.
