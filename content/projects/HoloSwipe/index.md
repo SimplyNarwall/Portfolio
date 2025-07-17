@@ -5,7 +5,7 @@ draft: false
 summary: "A fast paced shopping spree roguelike created for HoloJam 6"
 tags: ["Design", "Unity"]
 ---
-<p><img src="btbmm.png" width="640" height = "360"></p>
+<p><img src="featured.png" width="640" height = "360"></p>
 
 ## Link to Game
 
@@ -25,20 +25,8 @@ https://charliedreemur.itch.io/holoswipe
 
 ## Gameplay Samples
 
+Players are incentivized to run around the map for as long as possible in order to collect pickups and increase their income. However, they must be sure to avoid money-deducting disasters.
+<p><img src="pickups.gif" width="640" height = "360"></p>
+
 Players have limited inventory space, and must reorganize it to collect more powerful items as the game goes on.
-<p><img src="0716.gif" width="640" height = "360"></p>
-
-
-In phase 1 of the boss, the player fights against the boss' top brass. Be wary of when you defeat them, as the boss can use their vacant motorcycles as deadly projectiles.
-<p>
-  <img src="motorcycle.gif" width="640" height = "360">
-  
-</p>
-
-In phase 2 of the boss, he unleashes massive radial attacks.
-<p><img src="screech.gif" width="640" height = "360"></p>
-
-## GDD
-Here is the rough design document I created while developing the game.
-
-<embed src="Monkey Jam 2024 GDD - Google Docs.pdf" type="application/pdf" width="892" height="842"/>
+<p><img src="inv.gif" width="640" height = "360"></p>
