@@ -9,10 +9,10 @@ tags: ["Design", "Unity"]
 
 ## Link to Game
 
-https://n0va-0.itch.io/bike-the-bullet
+https://charliedreemur.itch.io/holoswipe
 
 ## Team Size/Time constraint
-- Worked as the lead programmer and designer in a team of 4, for a 3 day Game Jam.
+- Worked as a programmer and designer in a team of 4, for a 2 week long Game Jam.
 
 ## What I did
 - Wrote initial game concept summary
@@ -25,7 +25,8 @@ https://n0va-0.itch.io/bike-the-bullet
 
 ## Gameplay Samples
 
-Players can collects power ups to give them stronger attacks. This one is an explosive attack, based off a friend of CDawgVA who has an obsession with fried chicken.<p><img src="powerup.gif" width="640" height = "360"></p>
+Players have limited inventory space, and must reorganize it to collect more powerful items as the game goes on.
+<p><img src="0716.gif" width="640" height = "360"></p>
 
 
 In phase 1 of the boss, the player fights against the boss' top brass. Be wary of when you defeat them, as the boss can use their vacant motorcycles as deadly projectiles.
