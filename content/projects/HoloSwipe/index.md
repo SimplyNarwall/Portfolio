@@ -28,5 +28,5 @@ https://charliedreemur.itch.io/holoswipe
 - Players are incentivized to run around the map for as long as possible in order to collect pickups and increase their income. However, they must be sure to avoid money-deducting disasters.
 <p><img src="pickups.gif" width="640" height = "360"></p>
 
-- Players have limited inventory space, and must reorganize it to collect more powerful items as the game goes on.
+- Players have limited inventory space, and must reorganize it to collect more powerful or efficient items as the game goes on.
 <p><img src="inv.gif" width="640" height = "360"></p>
