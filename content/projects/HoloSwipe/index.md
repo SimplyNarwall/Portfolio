@@ -30,7 +30,7 @@ https://charliedreemur.itch.io/holoswipe
 - Players have limited inventory space, and must reorganize it to collect more powerful or efficient items as the game goes on.
 <p><img src="inv.gif" width="640" height = "360"></p>
 
-## Feature Design
+## Gameplay Design
 - The goal of the game is to get enough fan score each day to reach the next day. This is similar to games like balatro, where the only objective is to get your score high enough to win.
 
 - Money: Players obtain money in 2 ways, through coins which spawn randomly and frequently around the map and salary, a flat sum of money which is 
