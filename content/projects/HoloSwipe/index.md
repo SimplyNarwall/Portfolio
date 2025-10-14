@@ -18,7 +18,6 @@ https://charliedreemur.itch.io/holoswipe
 - Wrote initial game concept summary
 - Designed and balanced player stats, items, and disasters
 - Programmed disasters, player stats, UI, and Sound
-- All sound design
 
 ## Game Overview
 - Holoswipe is a fast-paced 3d roguelike where the objective is to survive one week as an obsessed Hololive Fan. Each day you must buy run around booths to collect coins and buy enough merch to prove your allegiance. Merch items give you stats in return which can increase your income, discount items, or help you avoid money-stealing disasters. 
