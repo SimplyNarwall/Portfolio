@@ -37,7 +37,7 @@ https://charliedreemur.itch.io/holoswipe
 
 - Items: Items will spawn in set areas in the map, and can be bought with money. With some exceptions, item spawns will always be random, though the location they spawn is the same each time. Items are the core of the gameplay, and the only way for players to increase their stats and fanscore enough to reach the target.
 
-- Limited inventory
+- Limited inventory: Players have a limited space to hold items, and players can organize their inventory to hold more. This allows for a slight optimization minigame, as well as providing for more item balancing levers (items that are cheaper are stronger earlier on when inventory space isn't an issue, whereas items that take up less space are more useful later when the player has a strong economy built). Additionally, it's just cool to see the item sprites their in your inventory. 
 
 - Disasters: Thematic events which can impede the player's movement, or steal their money. These are mainly intended to keep players on their toes and moving all the time, increasing tension, as well as providing homage to Hololive members.
 
