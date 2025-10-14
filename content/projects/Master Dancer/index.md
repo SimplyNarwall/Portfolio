@@ -28,18 +28,15 @@ Star maker is one of the minigames meant to teach players dance principles. In t
 ### Notable Features
 - Designed an orb trajectory prediction system so that the orb hits targets when it appears to from the player's perspective. 
 - Designed an aim assist feature to make game feel more satisfying. The strength is linearly curved so that wildly inaccurate hit will still be very off, while closer hits will hit the target. Adjusted aim assist strength through multiple playtest sessions.
-- Designed a music looping system in order to give players multiple tries while maintaining the musicality of the game.
-
-#### Orb Trajectory
-
-#### Loop System
+- Designed a music looping system in order to give players multiple tries, reducing frustrayion while maintaining the musicality of the game.
 
 ## Music Roundabout
 Music Roundabout (called Music Game while in development) is another minigame meant to teach players dance principles. In this game, players will activate orbs which rotate around them, creating a melody. The core design pillars of Music Roundabout are to teach players twisting motion, as well as a light tapping motion. In addition, players should feel as though they are creating music as they play.
 
 ### Notable Features
-- Designed an orb charging system to incentivize players to move and twist naturally.
-- Designed visual indicators for players to know when to activate orbs, even with no sound.
+- Designed an orb charging system where players had to follow the rotating orb with their hand to incentivize players to twist their hips naturally.
+- Designed visual indicators for players to know when to activate orbs, even with no sound (Although, sound was of course vital for this minigame).
+- Chose to limit the arc of the orb, from traversing in a full circle to a half circle, to prevent players from getting dizze and tangled in the VR headset's wire.
 
 #### Orb Charging
 
