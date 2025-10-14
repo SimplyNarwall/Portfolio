@@ -47,7 +47,7 @@ https://charliedreemur.itch.io/holoswipe
 
 
 ## Item Balance
-- Overall philosophy: While testing, I found that there were numerous times where the best strategy was simply amassing a large sum of fan score through items. While optimal, it felt terrible, as the items the player would buy would keep them at near base stats throughout the entire playthrough, resulting in them feeling the same at the end of the game as they do at the start. Because of this, a lot of the stat allocation and balancing is intended to incentivize players to get a wide variety of stats so they feel much stronger by the end, almost as though they're cheating. Most viable builds will include a lot of speed, luck (which increases loot spawn rate), and so much discount that items are practically free, so that the player will feel much more powerful.
+- Overall philosophy: While testing, I found that there were numerous times where the best strategy was simply amassing a large sum of fan score through items. While optimal, it felt terrible, as the items the player would buy would keep them at near base stats throughout the entire playthrough, resulting in them feeling the same at the end of the game as they do at the start. Because of this, a lot of the stat allocation and balancing is intended to incentivize players to get a wide variety of stats so they feel much stronger by the end, almost as though they're cheating. Most viable builds will include a lot of speed, luck (which increases loot spawn rate), and so much discount that items are practically free, allowing for a satisfying sense of progression.
 
 
 - Posters and pins: special items which give increased stats based on the other items in your inventory
