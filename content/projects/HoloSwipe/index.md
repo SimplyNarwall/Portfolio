@@ -43,7 +43,7 @@ https://charliedreemur.itch.io/holoswipe
 
 - Loot spawns: Loot spawns are the counterpart to disasters. Since the player can simply leave the convention early if they want, these loot spawns incentivize the player to stay in the convention for as long as they can, as well as providing exciting moments where players can be dropped expensive items.
 
-Time limit: Each day, there is a time limit before the player will be chased out by enemies which get increasingly faster and deduct a large sum of money if they reach. The idea behind these enemies is to allow a slight bit of leeway to the player, as well as letting players to feel how much "stronger" they are later in the game. Since the enemies slowly scale up their speed, high speed builds will be able to run from them for longer, and create fun moments.
+- Time limit: Each day, there is a time limit before the player will be chased out by enemies which get increasingly faster and deduct a large sum of money if they reach. The idea behind these enemies is to allow a slight bit of leeway to the player, as well as letting players to feel how much "stronger" they are later in the game. Since the enemies slowly scale up their speed, high speed builds will be able to run from them for longer, and create fun moments.
 
 
 ## Item Balance
