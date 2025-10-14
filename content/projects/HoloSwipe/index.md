@@ -29,3 +29,16 @@ https://charliedreemur.itch.io/holoswipe
 
 - Players have limited inventory space, and must reorganize it to collect more powerful or efficient items as the game goes on.
 <p><img src="inv.gif" width="640" height = "360"></p>
+
+## Major Design Choices
+- Disasters: Events which can impede the player's movement, or steal their money. These are intended to keep players on their toes and moving all the time.
+- Loot spawns: The counterpart to disasters. Since the player can simply leave the convention early, the loot spawns incentivize the player to stay in the convention for as long as they can.
+- 
+
+
+## Item Balance
+- Posters and pins: special items which give increased stats based on the other items in your inventory
+- Plushies:
+- 
+
+
