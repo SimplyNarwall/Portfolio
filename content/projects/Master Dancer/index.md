@@ -36,14 +36,7 @@ Music Roundabout (called Music Game while in development) is another minigame me
 ### Notable Features
 - Designed an orb charging system where players had to follow the rotating orb with their hand to incentivize players to twist their hips naturally.
 - Designed visual indicators for players to know when to activate orbs, even with no sound (Although, sound was of course vital for this minigame).
-- Chose to limit the arc of the orb, from traversing in a full circle to a half circle, to prevent players from getting dizze and tangled in the VR headset's wire.
-
-#### Orb Charging
-
-#### Visual Indicators
-
-#### Limited Arc
-
+- Chose to limit the arc of the orb, from traversing in a full circle to a half circle, to prevent players from getting dizzy and tangled in the VR headset's wire.
 
 ## Examples of Work
 
