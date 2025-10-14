@@ -39,9 +39,9 @@ https://charliedreemur.itch.io/holoswipe
 
 - Limited inventory: Players have a limited space to hold items, and players can organize their inventory to hold more. This allows for a slight optimization minigame, as well as providing for more item balancing levers (items that are cheaper are stronger earlier on when inventory space isn't an issue, whereas items that take up less space are more useful later when the player has a strong economy built). Additionally, it's just cool to see the item sprites their in your inventory. 
 
-- Disasters: Thematic events which can impede the player's movement, or steal their money. These are mainly intended to keep players on their toes and moving all the time, increasing tension, as well as providing homage to Hololive members.
+- Disasters: Disasters are thematic events which can impede the player's movement, or steal their money. These are mainly intended to keep players on their toes and moving all the time, increasing tension, as well as providing homage to Hololive members.
 
-- Loot spawns: The counterpart to disasters. Since the player can simply leave the convention early if they want, these loot spawns incentivize the player to stay in the convention for as long as they can, as well as providing exciting moments where players can be dropped expensive items.
+- Loot spawns: Loot spawns are the counterpart to disasters. Since the player can simply leave the convention early if they want, these loot spawns incentivize the player to stay in the convention for as long as they can, as well as providing exciting moments where players can be dropped expensive items.
 
 Time limit: Each day, there is a time limit before the player will be chased out by enemies which get increasingly faster and deduct a large sum of money if they reach. The idea behind these enemies is to allow a slight bit of leeway to the player, as well as letting players to feel how much "stronger" they are later in the game. Since the enemies slowly scale up their speed, high speed builds will be able to run from them for longer, and create fun moments.
 
