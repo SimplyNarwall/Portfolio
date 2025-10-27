@@ -27,11 +27,11 @@ https://charliedreemur.itch.io/holoswipe
 
 - Money: Players obtain money in 2 ways, through coins which spawn randomly and frequently around the map and salary, a flat sum of money which is 
 
-- Items: Items will spawn in set areas in the map, and can be bought with money. With some exceptions, item spawns will always be random, though the location they spawn is the same each time. Items are the core of the gameplay, and the only way for players to increase their stats and fanscore enough to reach the target. The randomness of item spawns means that hopefully players will be able to find different good starting items across several playthroughs.
+- Items: Items will spawn in set areas in the map, and can be bought with money. With some exceptions, item spawns will always be random, though the location they spawn is the same each time. Items are the core of the gameplay, and the only way for players to increase their stats and fanscore enough to reach the target. The goal of random item spawns is to offer a different experience/item build for multiple playthroughs.
 
 <p><img src="inv.gif" width="640" height = "360"></p>
 
-- Limited inventory: Players have a limited space to hold items, and players can organize their inventory to hold more. This allows for a slight optimization minigame, as well as providing for more item balancing levers (items that are cheaper are stronger earlier on when inventory space isn't an issue, whereas items that take up less space are more useful later when the player has a strong economy built). Additionally, it's just cool to see the item sprites their in your inventory. 
+- Limited inventory: Players have a limited space to hold items, and players can organize their inventory to hold more. This allows for a slight optimization minigame, as well as providing for more item balancing levers (items that are cheaper are stronger earlier on when inventory space isn't an issue, whereas items that take up less space are more useful later when the player has a strong economy built). Additionally, it's simply cool to see the item sprites in your inventory. 
 
 - Disasters: Disasters are thematic events which can impede the player's movement, or steal their money. These are mainly intended to keep players on their toes and moving all the time, increasing tension, as well as providing homage to Hololive members.
 
