@@ -17,7 +17,7 @@ tags: ["Design"]
 ## What I did
 - Lead all design decisions, working in several design disciplines such as Mechanics, Technical, UX, QA etc.
 - Authored 20+ design documents, including Gameplay Loops, Feature Breakdowns, Asset Lists, etc.
-- Worked in Unreal Engine to implement and balance level designs
+- Worked in Unreal Engine using Blueprint and C++ to implement and balance level designs
 
 ## Game Overview
 - In Master Dancer, you meet the famous dancer Loïe Fuller, the first to integrate technology into modern dance. As a player, you engage in action games to learn her movement principles and, guided by Virtual Loïe, explore her world. You will use modern VR technology to create your own unique dance, becoming a Master Dancer yourself!
