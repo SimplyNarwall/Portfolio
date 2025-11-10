@@ -7,9 +7,9 @@ tags: []
 ---
 {{< article link="/extras/armageddon" showSummary=true compactSummary=true >}}
 
-{{< article link="/extras/Climatic" showSummary=true compactSummary=true >}}
+{{< article link="/../extras/Climatic" showSummary=true compactSummary=true >}}
 
-{{< article link="/extras/fj" showSummary=true compactSummary=true >}}
+{{< article link="/Portfolio/extras/fj" showSummary=true compactSummary=true >}}
 
 {{< article link="/extras/ft" showSummary=true compactSummary=true >}}
 
