@@ -18,7 +18,8 @@ tags: []
 
 {{< article link="Portfolio/content/extras/rc" showSummary=true compactSummary=true >}}
 
-{{< article link="/extras/ss" showSummary=true compactSummary=true >}}
+{{< article link="https://simplynarwall.github.io/Portfolio/extras/ss/" showSummary=true compactSummary=true >}}
+
 
 {{< article link="/extras/sss" showSummary=true compactSummary=true >}}
 
