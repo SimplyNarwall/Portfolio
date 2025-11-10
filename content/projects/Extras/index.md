@@ -16,7 +16,7 @@ tags: []
 
 {{< article link="/content/extras/ft" showSummary=true compactSummary=true >}}
 
-{{< article link="Portfoloo/contant/extras/rc" showSummary=true compactSummary=true >}}
+{{< article link="Portfolio/content/extras/rc" showSummary=true compactSummary=true >}}
 
 {{< article link="/extras/ss" showSummary=true compactSummary=true >}}
 
