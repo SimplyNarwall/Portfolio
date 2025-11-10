@@ -6,3 +6,17 @@ summary: "Smaller scale/incomplete projects"
 tags: []
 ---
 {{< article link="/extras/armageddon" showSummary=true compactSummary=true >}}
+
+{{< article link="/extras/Climatic" showSummary=true compactSummary=true >}}
+
+{{< article link="/extras/fj" showSummary=true compactSummary=true >}}
+
+{{< article link="/extras/ft" showSummary=true compactSummary=true >}}
+
+{{< article link="/extras/rc" showSummary=true compactSummary=true >}}
+
+{{< article link="/extras/ss" showSummary=true compactSummary=true >}}
+
+{{< article link="/extras/sss" showSummary=true compactSummary=true >}}
+
+{{< article link="/extras/tb" showSummary=true compactSummary=true >}}
