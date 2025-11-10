@@ -1,6 +1,6 @@
 ---
 title: "Extras"
-weight: 0
+weight: 1
 draft: false
 summary: "Smaller scale/incomplete projects"
 tags: []
