@@ -5,4 +5,4 @@ draft: false
 summary: "Smaller scale/incomplete projects"
 tags: [""]
 ---
-{{< article link="/Extras/Armageddon" showSummary=true compactSummary=true >}}
+{{< article link="/extras/armageddon" showSummary=true compactSummary=true >}}
