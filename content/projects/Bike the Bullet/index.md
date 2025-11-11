@@ -13,7 +13,7 @@ tags: ["Design", "Unity"]
 https://n0va-0.itch.io/bike-the-bullet
 
 ## Team Size/Time constraint
-- Worked as the lead programmer and designer in a team of 4, for a 3 day Game Jam.
+- Worked as the main programmer and designer in a team of 4, for a 3 day Game Jam.
 
 ## What I did
 - Wrote GDD summary
