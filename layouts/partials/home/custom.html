@@ -1,20 +1,20 @@
-<html>
-<head>
-<style>
-p {text-align: center; }
-</style>
-</head>
-<body>
+{{/* Homepage: name + one-line bio + auto-advancing gallery of the top 3 projects. "Top 3" = the 3 direct pages under /projects with the highest `weight` (projects inside Extras are ignored). Slide image, in order of preference: 1. `galleryImage: "file.png"` (or .gif / .mp4) in the project's front matter 2. any file in the project folder named featured.* (featured.png, featured.gif, ...) 3. the first image file in the project folder 4. a plain title card if the project has no images at all */}} {{ $projects := (site.GetPage "/projects").RegularPages }} {{ $top := first 3 (sort $projects "Weight" "desc") }}
+{{ site.Params.author.name | default "Ethan Wang" }}
+Game designer and programmer building games in Unity and Unreal.
+{{ range $i, $p := $top }} {{ $src := "" }} {{ $isVideo := false }} {{ with $p.Params.galleryImage }} {{ with $p.Resources.Get . }} {{ $src = .RelPermalink }} {{ $isVideo = strings.HasSuffix (lower .Name) ".mp4" }} {{ end }} {{ end }} {{ if not $src }} {{ with $p.Resources.GetMatch "featured*" }}{{ $src = .RelPermalink }}{{ end }} {{ end }} {{ if not $src }} {{ with $p.Resources.ByType "image" }}{{ $src = (index . 0).RelPermalink }}{{ end }} {{ end }}
+{{ if $isVideo }}
 
-<div id="background">
-  {{ partial "partials/home/background.html" . }}
-</div>
+{{ else if $src }}
+￼
+{{ else }}
+{{ $p.Title }}
+{{ end }}
+{{ $p.Title }}
+{{ with $p.Summary }}
+{{ . | plainify }}
+{{ end }}
+{{ end }} ‹ ›
+{{ range $i, $p := $top }}
 
-
-    <p>Hi, I’m Ethan, an undergraduate student at UIUC and aspiring game developer. With a strong foundation in programming, especially C++, C#, and Java, I have dedicated much of my life to creating video games. Beyond my programming skills, I possess years of experience designing small to medium scale projects for game jams and my university job, as well as leadership experience from ACM Gamebuilders, where I’ve worked hard to foster a strong and collaborative community. Whether coding mechanics, writing design docs, or collaborating with other game devs, I aim to keep things fun for both players and those around me. 
-    <br />  
-    <br />  
-    When I’m not immersed in game development, I enjoy connecting with friends and honing my athletic skills with flips at the gym.</p>
-
-</body>
-</html>
+{{ end }}
+See all projects →
