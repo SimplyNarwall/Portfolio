@@ -1,20 +1,189 @@
-{{/* Homepage: name + one-line bio + auto-advancing gallery of the top 3 projects. "Top 3" = the 3 direct pages under /projects with the highest `weight` (projects inside Extras are ignored). Slide image, in order of preference: 1. `galleryImage: "file.png"` (or .gif / .mp4) in the project's front matter 2. any file in the project folder named featured.* (featured.png, featured.gif, ...) 3. the first image file in the project folder 4. a plain title card if the project has no images at all */}} {{ $projects := (site.GetPage "/projects").RegularPages }} {{ $top := first 3 (sort $projects "Weight" "desc") }}
-{{ site.Params.author.name | default "Ethan Wang" }}
-Game designer and programmer building games in Unity and Unreal.
-{{ range $i, $p := $top }} {{ $src := "" }} {{ $isVideo := false }} {{ with $p.Params.galleryImage }} {{ with $p.Resources.Get . }} {{ $src = .RelPermalink }} {{ $isVideo = strings.HasSuffix (lower .Name) ".mp4" }} {{ end }} {{ end }} {{ if not $src }} {{ with $p.Resources.GetMatch "featured*" }}{{ $src = .RelPermalink }}{{ end }} {{ end }} {{ if not $src }} {{ with $p.Resources.ByType "image" }}{{ $src = (index . 0).RelPermalink }}{{ end }} {{ end }}
-{{ if $isVideo }}
+{{/*
+  Homepage: name + one-line bio + auto-advancing gallery of the top 3 projects.
 
-{{ else if $src }}
-￼
-{{ else }}
-{{ $p.Title }}
-{{ end }}
-{{ $p.Title }}
-{{ with $p.Summary }}
-{{ . | plainify }}
-{{ end }}
-{{ end }} ‹ ›
-{{ range $i, $p := $top }}
+  "Top 3" = the 3 direct pages under /projects with the highest `weight`
+  (projects inside Extras are ignored).
 
-{{ end }}
-See all projects →
+  Slide image, in order of preference:
+    1. `galleryImage: "file.png"` (or .gif / .mp4) in the project's front matter
+    2. any file in the project folder named featured.* (featured.png, featured.gif, ...)
+    3. the first image file in the project folder
+    4. a plain title card if the project has no images at all
+*/}}
+
+{{ $projects := (site.GetPage "/projects").RegularPages }}
+{{ $top := first 3 (sort $projects "Weight" "desc") }}
+
+<section class="home-intro">
+  <h1>{{ site.Params.author.name | default "Ethan Wang" }}</h1>
+  <p>Game designer and programmer building games in Unity and Unreal.</p>
+</section>
+
+<section class="gallery" aria-roledescription="carousel" aria-label="Featured projects">
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      {{ range $i, $p := $top }}
+        {{ $src := "" }}
+        {{ $isVideo := false }}
+
+        {{ with $p.Params.galleryImage }}
+          {{ with $p.Resources.Get . }}
+            {{ $src = .RelPermalink }}
+            {{ $isVideo = strings.HasSuffix (lower .Name) ".mp4" }}
+          {{ end }}
+        {{ end }}
+        {{ if not $src }}
+          {{ with $p.Resources.GetMatch "featured*" }}{{ $src = .RelPermalink }}{{ end }}
+        {{ end }}
+        {{ if not $src }}
+          {{ with $p.Resources.ByType "image" }}{{ $src = (index . 0).RelPermalink }}{{ end }}
+        {{ end }}
+
+        <a class="gallery-slide" href="{{ $p.RelPermalink }}"
+           role="group" aria-roledescription="slide"
+           aria-label="{{ add $i 1 }} of {{ len $top }}: {{ $p.Title }}">
+          {{ if $isVideo }}
+            <video src="{{ $src }}" muted loop playsinline autoplay preload="metadata"></video>
+          {{ else if $src }}
+            <img src="{{ $src }}" alt="Screenshot of {{ $p.Title }}" {{ if gt $i 0 }}loading="lazy"{{ end }}>
+          {{ else }}
+            <div class="gallery-placeholder"><span>{{ $p.Title }}</span></div>
+          {{ end }}
+          <div class="gallery-caption">
+            <h2>{{ $p.Title }}</h2>
+            {{ with $p.Summary }}<p>{{ . | plainify }}</p>{{ end }}
+          </div>
+        </a>
+      {{ end }}
+    </div>
+
+    <button class="gallery-arrow prev" type="button" aria-label="Previous project">&#8249;</button>
+    <button class="gallery-arrow next" type="button" aria-label="Next project">&#8250;</button>
+  </div>
+
+  <div class="gallery-dots" role="tablist" aria-label="Choose project">
+    {{ range $i, $p := $top }}
+      <button type="button" role="tab" aria-label="{{ $p.Title }}" {{ if eq $i 0 }}aria-selected="true"{{ end }}></button>
+    {{ end }}
+  </div>
+
+  <p class="gallery-more"><a href="{{ (site.GetPage "/projects").RelPermalink }}">See all projects &rarr;</a></p>
+</section>
+
+<style>
+  .home-intro { text-align: center; margin: 2rem auto 1.5rem; max-width: 40rem; padding: 0 1rem; }
+  .home-intro h1 { font-size: 2.25rem; font-weight: 800; margin: 0 0 .5rem; }
+  .home-intro p  { margin: 0; font-size: 1.1rem; opacity: .8; }
+
+  .gallery { max-width: 960px; margin: 0 auto 3rem; padding: 0 1rem; }
+  .gallery-viewport {
+    position: relative; overflow: hidden; border-radius: 12px;
+    aspect-ratio: 16 / 9; background: rgb(var(--color-neutral-800, 38, 38, 38));
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
+  }
+  .gallery-track { display: flex; height: 100%; transition: transform .6s ease; }
+  .gallery-slide {
+    position: relative; flex: 0 0 100%; height: 100%;
+    display: block; color: #fff !important; text-decoration: none !important;
+  }
+  .gallery-slide img, .gallery-slide video {
+    width: 100%; height: 100%; object-fit: cover; display: block; margin: 0;
+    transition: transform .4s ease;
+  }
+  .gallery-slide:hover img, .gallery-slide:hover video { transform: scale(1.03); }
+  .gallery-placeholder {
+    width: 100%; height: 100%; display: grid; place-items: center;
+    background: linear-gradient(135deg, rgb(var(--color-primary-700, 67, 56, 202)), rgb(var(--color-neutral-900, 23, 23, 23)));
+    font-size: 2rem; font-weight: 800;
+  }
+  .gallery-caption {
+    position: absolute; inset: auto 0 0 0; padding: 2.5rem 1.25rem 1rem;
+    background: linear-gradient(transparent, rgba(0, 0, 0, .8));
+  }
+  .gallery-caption h2 { margin: 0; font-size: 1.5rem; font-weight: 700; color: #fff; }
+  .gallery-caption p  { margin: .25rem 0 0; font-size: .95rem; color: rgba(255, 255, 255, .85); }
+
+  .gallery-arrow {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    width: 2.75rem; height: 2.75rem; border-radius: 50%; border: 0;
+    background: rgba(0, 0, 0, .45); color: #fff; font-size: 2rem; line-height: 1;
+    cursor: pointer; display: grid; place-items: center; padding-bottom: .2rem;
+    transition: background .2s;
+  }
+  .gallery-arrow:hover, .gallery-arrow:focus-visible { background: rgba(0, 0, 0, .75); }
+  .gallery-arrow.prev { left: .75rem; }
+  .gallery-arrow.next { right: .75rem; }
+
+  .gallery-dots { display: flex; justify-content: center; gap: .5rem; margin-top: .9rem; }
+  .gallery-dots button {
+    width: .65rem; height: .65rem; border-radius: 50%; border: 0; padding: 0; cursor: pointer;
+    background: rgb(var(--color-neutral-400, 163, 163, 163)); opacity: .5; transition: opacity .2s, transform .2s;
+  }
+  .gallery-dots button[aria-selected="true"] {
+    opacity: 1; transform: scale(1.25); background: rgb(var(--color-primary-500, 99, 102, 241));
+  }
+  .gallery-more { text-align: center; margin-top: 1rem; }
+
+  @media (max-width: 640px) {
+    .home-intro h1 { font-size: 1.75rem; }
+    .gallery-caption p { display: none; }
+    .gallery-arrow { width: 2.25rem; height: 2.25rem; font-size: 1.6rem; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .gallery-track, .gallery-slide img, .gallery-slide video { transition: none; }
+  }
+</style>
+
+<script>
+(function () {
+  const root = document.querySelector(".gallery");
+  if (!root) return;
+  const track = root.querySelector(".gallery-track");
+  const slides = track.children;
+  const dots = root.querySelectorAll(".gallery-dots button");
+  const count = slides.length;
+  if (count < 2) { root.querySelectorAll(".gallery-arrow, .gallery-dots").forEach(e => e.remove()); return; }
+
+  const AUTO_MS = 6000;  // how often it advances on its own
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let index = 0, timer = null, paused = false;
+
+  function go(i) {
+    index = (i + count) % count;
+    track.style.transform = `translateX(-${index * 100}%)`;
+    dots.forEach((d, j) => d.setAttribute("aria-selected", j === index ? "true" : "false"));
+    Array.from(slides).forEach((s, j) => s.tabIndex = j === index ? 0 : -1);
+  }
+  function restart() {
+    clearInterval(timer);
+    if (!reduceMotion && !paused) timer = setInterval(() => go(index + 1), AUTO_MS);
+  }
+
+  root.querySelector(".prev").addEventListener("click", () => { go(index - 1); restart(); });
+  root.querySelector(".next").addEventListener("click", () => { go(index + 1); restart(); });
+  dots.forEach((d, i) => d.addEventListener("click", () => { go(i); restart(); }));
+
+  const viewport = root.querySelector(".gallery-viewport");
+  viewport.addEventListener("mouseenter", () => { paused = true; restart(); });
+  viewport.addEventListener("mouseleave", () => { paused = false; restart(); });
+  root.addEventListener("focusin", () => { paused = true; restart(); });
+  root.addEventListener("focusout", () => { paused = false; restart(); });
+
+  let startX = null;
+  viewport.addEventListener("touchstart", e => { startX = e.touches[0].clientX; }, { passive: true });
+  viewport.addEventListener("touchend", e => {
+    if (startX === null) return;
+    const dx = e.changedTouches[0].clientX - startX;
+    if (Math.abs(dx) > 40) { go(index + (dx < 0 ? 1 : -1)); restart(); }
+    startX = null;
+  });
+
+  root.addEventListener("keydown", e => {
+    if (e.key === "ArrowLeft")  { go(index - 1); e.preventDefault(); }
+    if (e.key === "ArrowRight") { go(index + 1); e.preventDefault(); }
+  });
+
+  go(0);
+  restart();
+})();
+</script>
