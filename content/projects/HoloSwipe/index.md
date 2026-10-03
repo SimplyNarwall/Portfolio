@@ -2,6 +2,7 @@
 title: "HoloSwipe"
 weight: 49
 draft: false
+galleryImage: "inv.gif"
 summary: "A fast paced shopping spree roguelike created for HoloJam 6"
 tags: ["Design", "Unity"]
 ---

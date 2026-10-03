@@ -24,7 +24,7 @@ https://suareal.itch.io/websters
   - Decoy submission, shuffling decoys in with the real word, and guess handling
 
 ## Game Overview
-- Websters is a Jackbox-style party game about defining a word with words you didn't choose. It's chaotic, it's nearly impossible, and it gets funnier with more players.
+- Websters is a Jackbox-style party game about defining a word with completely unrelated words, leading to nonsensical definitions, and a lot of questioning of your friends' intelligence.
 
 ## Gameplay Loop
 1. **Prompt:** Every player answers a prompt. Their answers become the shared word bank for the round.
