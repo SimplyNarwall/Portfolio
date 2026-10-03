@@ -2,6 +2,7 @@
 title: "Websters"
 weight: 20
 draft: false
+galleryImage: "GallerySS.png"
 summary: "A Jackbox-style party game where you define a word using only everyone else's words, made in 2 days"
 tags: ["Design", "Unity", "Networking"]
 ---
