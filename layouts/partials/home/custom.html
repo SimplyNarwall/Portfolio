@@ -151,7 +151,7 @@
 
   function go(i) {
     index = (i + count) % count;
-    track.style.transform = `translateX(-${index * 100}%)`;
+    track.style.transform = "translateX(-" + (index * 100) + "%)";
     dots.forEach((d, j) => d.setAttribute("aria-selected", j === index ? "true" : "false"));
     Array.from(slides).forEach((s, j) => s.tabIndex = j === index ? 0 : -1);
   }
