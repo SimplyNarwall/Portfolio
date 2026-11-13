@@ -12,10 +12,16 @@ identifier = "2jOMxSC9At"
 weight = 2
 
 [[main]]
+name = "Design Thoughts"
+pageRef = "articles"
+identifier = "designthoughts"
+weight = 3
+
+[[main]]
 name = "Resume"
 pageRef = "resume"
 identifier = "NGSdgIHFBb"
-weight = 3
+weight = 4
 
 [[footer]]
 none = "none"
