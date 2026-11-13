@@ -10,11 +10,25 @@ showTableOfContents: true
 
 Some thoughts and open questions about TFT's design, grouped by topic. Most of these come from playing in Grandmaster - Low Challenger, so they lean toward that end of the game. The thoughts came entirely from me, but I used Claude to organize and help communicate my ideas more clearly.
 
+## What do "flexible" and "creative" actually mean?
+
+These words get thrown around all the time, but they're really nebulous. Variety and monotony are much easier to define, so it might help to pin the fuzzier words to things that can actually be measured:
+
+- **Flexibility:** how predictable is a player's final board from their early state? If you can call someone's endgame comp from their opener or first augment, the game isn't very flexible. Another angle: how do players who pivot place compared to players who stick to their line?
+- **Variety vs. monotony:** how many distinct endgame boards show up in top 4, and how often does one player end up on the same endgame board across games?
+- **Creativity:** maybe the feeling of making a choice the stats wouldn't have recommended, and having it work. Hard to measure without just asking players.
+
 ## Line selection, theorycrafting, and endgame boards
 
 At high levels, you usually pick a line and follow it. But I don't think line selection itself is the problem. How you get to your endgame board is probably the most creative and skill-expressive part of TFT: reading your opener, items, augments, and the lobby, and finding the right path through the midgame. Midgame boards can be really varied and creative. Your endgame board often gets locked in almost immediately, but the path to get there is often very creative.
 
 The problem is where those lines end up. Because stats are public, endgame boards are often the same handful of statistically strongest boards, so even after a creative midgame, the endgame can feel very monotonous. That's why I think line selection/flexibility and theorycrafting are really closely related, maybe even the same problem: the path is creative, but the destination is mostly solved ahead of time.
+
+### Why flexibility matters
+
+Flexibility is where a lot of skill expression comes from. If TFT were 100% rigid, players would just be waiting for the units they need to show up in their shop, which wouldn't be very fun. The more flexible the game is, the more players can make use of any unit in their shop, and the more they can play around bad luck.
+
+There's a limit, though. If every unit were usable from every position, choosing units would feel meaningless, and the same problem would just show up with augments and items instead.
 
 ### Committed vs. flexible players
 
@@ -58,15 +72,7 @@ The other side of this is that players need something to ground them. Not every 
 
 I'm not sure what the answer is. One thought: stats sites work because the same choice is worth about the same in every game, so it averages out. Things whose value depends more on the specific game (the lobby, what other people are playing, what's left in the pool) might be harder to solve ahead of time. But that probably means more variance, making the game both more luck based and harder to learn, which is unlikely to be worth the tradeoff.
 
-Related: when I took a few months off TFT, it wasn't because games lacked variety. There's already a ton of variation between games. It was more that I'd learned so much that games started to feel like going through the motions. Every game eventually gets to that point for a dedicated player, and honestly it's a strength of TFT's design that it took so long.
-
-### What do "flexible" and "creative" actually mean?
-
-These words get thrown around all the time, but they're really nebulous. Variety and monotony are much easier to define, so it might help to pin the fuzzier words to things that can actually be measured:
-
-- **Flexibility:** how predictable is a player's final board from their early state? If you can call someone's endgame comp from their opener or first augment, the game isn't very flexible. Another angle: how do players who pivot place compared to players who stick to their line?
-- **Variety vs. monotony:** how many distinct endgame boards show up in top 4, and how often does one player end up on the same endgame board across games?
-- **Creativity:** maybe the feeling of making a choice the stats wouldn't have recommended, and having it work. Hard to measure without just asking players.
+Related: when I took a few months off TFT, it wasn't because games lacked variety. There's already a ton of variation between games. It was more that I'd learned so much that even with that much variety, games started to feel like going through the motions. Every game eventually gets to that point for a dedicated player, and honestly it's a strength of TFT's design that it took so long.
 
 ## Champions left in the pool
 
