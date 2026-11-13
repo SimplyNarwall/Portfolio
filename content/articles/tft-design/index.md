@@ -38,7 +38,7 @@ But that makes me think line selection isn't actually that bad. In the opposite 
 
 Right now it feels like 7 to 8 players (basically everyone) have their gameplan decided from the start. Maybe it should be closer to 6 or 7. Then:
 
-- **Should flexible players be on even footing with committed ones? Better? Worse?** If flexible play is better on average, everyone ends up in a game of chicken, waiting for someone else to lock in first. If committed play is better on average, everyone commits from the start, which is roughly where TFT is now. The healthy spot might be where flexible play is about even on average, but much better when you read the lobby correctly and worse when you misread it. That keeps a good pivot as a reward for a good read, not a free option.
+- **Should flexible players be on even footing with committed ones? Better? Worse?** If flexible play is better on average, everyone ends up in a game of chicken, waiting for someone else to lock in first, and at high levels flexibility would simply always be the right choice. I think flexibility should be, at its core, a comeback mechanic: a way to turn a spot that would normally be bad into a decent one, not something that beats a committed line on its own.
 - **What would move the ratio?** The cost of changing direction (augment permanence, how permanent items are, how much value you lose selling), the reward for being uncontested (pool sizes, how much contesting hurts), and how much information players have (perfect scouting makes it easy to see who's committed).
 - **When should players be forced into an endgame board?** They obviously shouldn't be switching boards every round. Pivoting should probably get more expensive as the game goes on, cheap early and costly late, with natural lock-in points around augments and the stage 4 rolldown. Since players are already committed in stage 2, pivoting is already negative-EV by stage 3, which suggests that curve might be too steep too early.
 
@@ -56,7 +56,6 @@ Since augments are such a big part of your board's strength and you can't change
 
 One idea is making augments less set in stone, with some limited way to change them. That could make the path more flexible, but it has some problems:
 
-- Forcing builds and augments would probably become even more common.
 - Returning rewards only really works for combat augments. Augments that give gold or items can't be taken back.
 - It might make endgame boards even more similar, since everyone could steer toward the strongest board more easily.
 
@@ -67,6 +66,8 @@ Playing creatively in the endgame at a high level doesn't really exist anymore. 
 In a game with this many players, no one can out-theorycraft the whole community, and a lot of those players are probably brighter than any one person. The meta gets posted online, and pretty much everyone ends up on the same level of meta knowledge, apart from the very top, where Challenger players have their own intuition or study groups to min-max.
 
 There are still rare chances to get ahead of the curve. At the start of Set 15, I noticed in the first patch that T-Hex was overtuned, before other players did and before it got buffed even more. But moments like that are uncommon. Trait Tracker and Trait Ladder augments might have created more of them, but now there are tools that solve the optimal boards for those too.
+
+A big part of the payoff of creativity is the feeling of discovery, of being a pioneer. That's hard to get when so many eyes are on the same game and the community solves things so quickly. I don't think that's easily solvable in the modern climate.
 
 The other side of this is that players need something to ground them. Not every player wants to theorycraft at all, especially new players, and they shouldn't have to. Being able to see the meta without playing 500 games is really healthy for the playerbase as a whole. The flip side is that if everything is already known, creative players don't get rewarded for their creativity. That's most true at the highest level of play, where things are the most optimized. At lower levels, you can probably get away with a lot more.
 
