@@ -8,7 +8,7 @@ tags: ["Design", "TFT"]
 showTableOfContents: true
 ---
 
-Some thoughts and open questions about TFT's design, grouped by topic. Most of these come from playing in Grandmaster - Low Challenger, so they lean toward that end of the game. The thoughts came entirely from me, but I used Claude to organize and help communicate my ideas more clearly.
+Some thoughts and open questions about TFT's design, grouped by topic. Most of these come from playing in Grandmaster - Low Challenger, so they lean toward that end of the game. The thoughts came entirely from me, but I used Claude to organize and help communicate my ideas more clearly. None of these are meant to be solid solutions. They're my personal thoughts on, and attempts to dissect, things I currently see as problems in TFT.
 
 ## What do "flexible" and "creative" actually mean?
 
