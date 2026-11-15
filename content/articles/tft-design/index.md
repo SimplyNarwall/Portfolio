@@ -3,14 +3,40 @@ title: "Thoughts on TFT's Design"
 date: 2026-11-13
 weight: 1
 draft: false
-summary: "Thoughts and open questions on Teamfight Tactics' design, from the perspective of a Grandmaster to Challenger player: line selection, public stats, pool information, matchmaking, and more."
-tags: ["Design", "TFT"]
+summary: "A Unity prototype of a champion pool indicator, plus working notes on Teamfight Tactics' design from a Grandmaster to Challenger player: flexibility, public stats, matchmaking, and more."
+tags: ["Design", "TFT", "Unity"]
 showTableOfContents: true
 ---
 
-Some thoughts and open questions about TFT's design, grouped by topic. Most of these come from playing in Grandmaster - Low Challenger, so they lean toward that end of the game. The thoughts came entirely from me, but I used Claude to organize and help communicate my ideas more clearly. None of these are meant to be solid solutions. They're my personal thoughts on, and attempts to dissect, things I currently see as problems in TFT.
+Some thoughts and open questions about TFT's design, grouped by topic. Most of these come from playing in Grandmaster - Low Challenger, so they lean toward that end of the game. The ideas are all mine; I used Claude to help organize and communicate them clearly.
 
-## What do "flexible" and "creative" actually mean?
+Below is a quick prototype of one idea, followed by my working notes on TFT's design. The notes are exploratory and not meant to be solid solutions; the prototype is what it looks like when I take one of them further.
+
+## Prototype: pool size indicator
+
+<video src="pool-indicator.mp4" controls muted loop playsinline autoplay preload="metadata" style="width:100%;border-radius:8px"></video>
+
+A quick Unity mockup of one idea from these notes: showing how many copies of a champion are still available. Selecting a champion shows its remaining copies out of the total pool size, and the number updates live as units are rolled, bought, or adjusted. Hovering the number explains what it means for your shop.
+
+### Why show pool counts
+
+Scouting the pool is a real skill in TFT, and showing pool counts would remove part of it. Scouting for items, positioning, and what people are building would still matter just as much, but counting copies would no longer separate experienced players from newer ones.
+
+The bigger reason is newer players. As far as I know, the game never explains why you shouldn't contest other players. Champion pools and pool sizes are core concepts that even lower-ranked players should understand, even if they don't have a friend to explain it. Right now you learn it from a guide, a friend, or losing a lot.
+
+**The idea.** A simple ratio on the champion's info card (copies left in the pool out of the total pool size), which already holds a lot of information, plus a tooltip for newer players explaining that the ratio determines how likely they are to find that unit. Keep it general and readable rather than trying to show everything.
+
+**Should players have perfect knowledge of the pool?** This is the real debate. One strong counterargument is that perfect information can be a problem in itself: if everyone knows exactly what's left, everyone tends to make the same rational decisions, and lobbies get more uniform. Experienced players can already scout an approximate pool count, so the question is whether streamlining the new player experience is worth narrowing that gap. Put another way: is counting the pool a skill TFT should be testing?
+
+My view is that while scouting is an important skill, it's equally or more important for newer players to have something to point to when they can never seem to hit their units. Right now, many of them don't even know the pool exists. Pool counts also better inform a player's decision to pivot, which ties into the flexibility discussion below: if pivoting depends on reading the lobby correctly, pool counts make that read easier.
+
+**Details for a deeper dive.** What exactly should count: copies in other players' shops, in your own shop, on boards, on benches? These matter for implementation, but the general idea comes first.
+
+## Working notes
+
+Everything below is my working notes: half-formed ideas, open questions, and things I'm still thinking through.
+
+### What do "flexible" and "creative" actually mean?
 
 These words get thrown around all the time, but they're really nebulous. Variety and monotony are much easier to define, so it might help to pin the fuzzier words to things that can actually be measured:
 
@@ -18,33 +44,31 @@ These words get thrown around all the time, but they're really nebulous. Variety
 - **Variety vs. monotony:** how many distinct endgame boards show up in top 4, and how often does one player end up on the same endgame board across games?
 - **Creativity:** maybe the feeling of making a choice the stats wouldn't have recommended, and having it work. Hard to measure without just asking players.
 
-## Line selection, theorycrafting, and endgame boards
+### Line selection, theorycrafting, and endgame boards
 
-At high levels, you usually pick a line and follow it. But I don't think line selection itself is the problem. How you get to your endgame board is probably the most creative and skill-expressive part of TFT: reading your opener, items, augments, and the lobby, and finding the right path through the midgame. Midgame boards can be really varied and creative. Your endgame board often gets locked in almost immediately, but the path to get there is often very creative.
+At high levels, you usually pick a line and follow it. But I don't think line selection itself is the problem. Your endgame board often gets locked in almost immediately, but the path there is probably the most creative and skill-expressive part of TFT: reading your opener, items, augments, and the lobby, and finding the right route through the midgame.
 
 The problem is where those lines end up. Because stats are public, endgame boards are often the same handful of statistically strongest boards, so even after a creative midgame, the endgame can feel very monotonous. That's why I think line selection/flexibility and theorycrafting are really closely related, maybe even the same problem: the path is creative, but the destination is mostly solved ahead of time.
 
-### Why flexibility matters
+#### Why flexibility matters
 
 Flexibility is where a lot of skill expression comes from. If TFT were 100% rigid, players would just be waiting for the units they need to show up in their shop, which wouldn't be very fun. The more flexible the game is, the more players can make use of any unit in their shop, and the more they can play around bad luck.
 
 There's a limit, though. If every unit were usable from every position, choosing units would feel meaningless, and the same problem would just show up with augments and items instead.
 
-### Committed vs. flexible players
+#### Committed vs. flexible players
 
-One of the biggest things about high-level TFT is that from stage 2, almost every player knows exactly what everyone else is going to play. Plans can go wrong, and people pivot in and out, but pivoting is generally considered a negative. That's exactly why a successful pivot feels so good. You took what's normally a negative-EV play, made it in the right spot, and it paid off. Your intuition beat the stat distribution.
+From stage 2, almost every high-level player knows exactly what everyone else is going to play. Plans go wrong and people pivot in and out, but pivots are rare and generally avoided. There aren't public stats on pivoting, but across thousands of games at Grandmaster and Challenger, that tells me most top players see it as negative EV. In the right spot, though, pivoting is the positive-EV play, and nothing tells you when you're in that spot. Pivoting there means going against the general consensus and trusting your own intuition, which is exactly why a successful pivot feels so good. I think moments like that are some of the most engaging in TFT.
 
-But that makes me think line selection isn't actually that bad. In the opposite scenario, where pivoting is actually positive EV, everyone would be pivoting unpredictably, making it nearly impossible to play around other players' actions. It would feel more like a volatile stock market. A game where nobody knows what anyone else is doing, with no meta at all, would be chaotic and high variance, and extremely difficult for new players to get into. Some players should optimally have a clearly defined gameplan, and other players should be able to play flexibly around them. The question is how much.
+But that makes me think line selection isn't actually that bad. If pivoting became positive EV in general, a few things would go wrong. Pivots would feel less engaging, since they'd be the expected play instead of a read that beats the odds. Everyone would be pivoting unpredictably, making it nearly impossible to play around other players' actions, so the game would feel more like a volatile stock market: chaotic and high variance. And it would be overwhelming for newer players, who'd have more to consider at more stages of the game. Optimally, some players should have a clearly defined gameplan, and other players should be able to play flexibly around them. The question is how much.
 
-Right now it feels like 7 to 8 players (basically everyone) have their gameplan decided from the start. Maybe it should be closer to 6 or 7. Then:
+Right now it feels like 7 to 8 players (basically everyone) have their gameplan decided from the start. Maybe it should be closer to 6 or 7. That raises a few questions:
 
 - **Should flexible players be on even footing with committed ones? Better? Worse?** If flexible play is better on average, everyone ends up in a game of chicken, waiting for someone else to lock in first, and at high levels flexibility would simply always be the right choice. I think flexibility should be, at its core, a comeback mechanic: a way to turn a spot that would normally be bad into a decent one, not something that beats a committed line on its own.
 - **What would move the ratio?** The cost of changing direction (augment permanence, how permanent items are, how much value you lose selling), the reward for being uncontested (pool sizes, how much contesting hurts), and how much information players have (perfect scouting makes it easy to see who's committed).
 - **When should players be forced into an endgame board?** They obviously shouldn't be switching boards every round. Pivoting should probably get more expensive as the game goes on, cheap early and costly late, with natural lock-in points around augments and the stage 4 rolldown. Since players are already committed in stage 2, pivoting is already negative-EV by stage 3, which suggests that curve might be too steep too early.
 
-One tension: part of why pivots feel so rewarding is that they're rare and go against the odds. If pivoting becomes too easy, that feeling of accomplishment goes away too.
-
-### Why lines lock in early
+#### Why lines lock in early
 
 Part of what narrows the destinations is how changeable each piece of your board is:
 
@@ -54,16 +78,19 @@ Part of what narrows the destinations is how changeable each piece of your board
 
 Since augments are such a big part of your board's strength and you can't change them, your early augments narrow which endgame boards are realistically open to you, and switching later means ending up weaker than the player who stuck to their line. Suboptimal items do the same thing. If you find a good direction early, the game gets very simple.
 
-One idea is making augments less set in stone, with some limited way to change them. That could make the path more flexible, but it has some problems:
+One idea I've toyed with is making augments less set in stone, with some limited way to change them late in the game. To be clear, I don't think it's a good idea as it stands. It would be hard to implement, I haven't thought it through, and it runs into a huge number of issues, for example:
 
 - Returning rewards only really works for combat augments. Augments that give gold or items can't be taken back.
+  - On top of that, simply swapping these augments out is a terrible idea. It makes early combat augments feel horrendous, since players who take them go most of the game with fewer resources than everyone else.
 - It might make endgame boards even more similar, since everyone could steer toward the strongest board more easily.
 
-### Theorycrafting and public stats
+Those are just the first few problems that come to mind. Unless every one of them got solved out very thoroughly, I think it would create more problems than it fixes.
+
+#### Theorycrafting and public stats
 
 Playing creatively in the endgame at a high level doesn't really exist anymore. I think it used to, but now endgame boards are more of a stats-mashing contest over who can combine the things with the best numbers, since all the numbers are already out there. It makes the end of the game feel closer to a trivia game than a teambuilding game.
 
-In a game with this many players, no one can out-theorycraft the whole community, and a lot of those players are probably brighter than any one person. The meta gets posted online, and pretty much everyone ends up on the same level of meta knowledge, apart from the very top, where Challenger players have their own intuition or study groups to min-max.
+With this many players, no one can out-theorycraft the whole community. The meta gets posted online, and nearly everyone ends up with the same meta knowledge, apart from the very top, where Challenger players rely on their own intuition or study groups to min-max.
 
 There are still rare chances to get ahead of the curve. At the start of Set 15, I noticed in the first patch that T-Hex was overtuned, before other players did and before it got buffed even more. But moments like that are uncommon. Trait Tracker and Trait Ladder augments might have created more of them, but now there are tools that solve the optimal boards for those too.
 
@@ -71,36 +98,23 @@ A big part of the payoff of creativity is the feeling of discovery, of being a p
 
 The other side of this is that players need something to ground them. Not every player wants to theorycraft at all, especially new players, and they shouldn't have to. Being able to see the meta without playing 500 games is really healthy for the playerbase as a whole. The flip side is that if everything is already known, creative players don't get rewarded for their creativity. That's most true at the highest level of play, where things are the most optimized. At lower levels, you can probably get away with a lot more.
 
-I'm not sure what the answer is. One thought: stats sites work because the same choice is worth about the same in every game, so it averages out. Things whose value depends more on the specific game (the lobby, what other people are playing, what's left in the pool) might be harder to solve ahead of time. But that probably means more variance, making the game both more luck based and harder to learn, which is unlikely to be worth the tradeoff.
+I'm not sure what the answer is. Stats sites work because the same choice is worth about the same in every game, so it averages out. Choices whose value depends more on the specific game (the lobby, what others are playing, what's left in the pool) would be harder to solve ahead of time, but they'd also add variance, making the game more luck-based and harder to learn. That's probably not worth the tradeoff.
+
+Honestly, some centralization is probably unavoidable. The meta will always settle around a few comps. The obvious way around that is extremely high variance, but then the game becomes a gamblefest in its own right, and having to theorycraft every single game would be too mentally taxing for most players.
+
+So I don't think the goal is to make theorycrafting the norm. Ideally, it would be rewarding, or even optimal, in a small minority of games, maybe 1 in 10. Right now, I can't think of a reason not to play a meta comp in almost any game.
 
 Related: when I took a few months off TFT, it wasn't because games lacked variety. There's already a ton of variation between games. It was more that I'd learned so much that even with that much variety, games started to feel like going through the motions. Every game eventually gets to that point for a dedicated player, and honestly it's a strength of TFT's design that it took so long.
 
-## Champions left in the pool
-
-Scouting is an important skill in TFT, and showing pool counts would lessen part of it. But the part it removes is mostly counting copies, which is tedious rather than skillful. Scouting for items, positioning, and what people are building would still be vital.
-
-The bigger reason is newer players. As far as I know, the game never explains why you shouldn't contest other players. Champion pools and pool sizes are core concepts that even lower-ranked players should understand, even if they don't have a friend to explain it. Right now you learn it from a guide, a friend, or losing a lot.
-
-**The idea.** A simple ratio on the champion's info card (copies left in the pool out of the total pool size), which already holds a lot of information, plus a tooltip for newer players explaining that the ratio determines how likely they are to find that unit. Keep it general and readable rather than trying to show everything.
-
-**Why not a simpler icon?** I've previously suggested a "wave" icon on champions that are currently very uncontested, but it has problems:
-
-- Newer players might just buy every unit with the icon, whether or not it fits their board.
-- As *you* buy the unit, it becomes more contested and the icon disappears, which is confusing. If something like this were used, it would make more sense to base it on how many copies other players hold, not how many are left in the pool.
-
-In general, a simple yes/no signal tends to get followed blindly, while a number makes players think about it.
-
-**Should players have perfect knowledge of the pool?** There's a debate about this. I personally think, why not? The information can already be found by scouting, so hiding it doesn't really test skill, it just takes time. And it better informs a player's decision to pivot, which ties directly into the flexibility discussion above: if pivoting depends on reading the lobby correctly, pool counts make that read easier. The honest counterpoint is that it takes away an edge experienced players currently have.
-
-**Details for a deeper dive.** What exactly should count: copies in other players' shops, in your own shop, on boards, on benches? These matter for implementation, but the general idea comes first.
-
-## Scouting and matchmaking
+### Scouting and matchmaking
 
 **Matchmaking** is random for good reason. If you knew who you were fighting next, the game would turn into a twitch-reflex contest, which isn't what TFT is trying to be.
 
-I'd even wonder whether players should have perfect information on enemy boards and positioning at all. I don't think the end-of-round positioning contest really should be part of the game. The problem is that there are a lot of reasons you need to see enemy boards right now, like scouting champion counts and clarity: players should be able to see what others are using, so they understand what they're fighting and losing against. Hiding that could be especially detrimental to newer players who are still figuring things out. But if that positioning twitch reflex went away, matchmaking could theoretically be more round robin and avoid the feel-bad of matchmaking luck by making it more predictable and "fair".
+I'd even question whether players should have perfect information on enemy boards and positioning. I don't think the end-of-round positioning contest should really be part of the game. The catch is that players currently need to see enemy boards for other reasons: scouting champion counts, and clarity about what they're fighting and losing against, which matters especially for newer players. But if that twitch-reflex repositioning went away, matchmaking could become more predictable and feel fairer.
 
 I don't mean literal round robin, just matchmaking that's more uniform and predictable. It might still feel unfair sometimes, but it would at least feel fairer, especially in the late game, where fight order can be a huge swing in placements.
+
+More uniform matchmaking would also avoid a lot of common frustrations, like lobbies where two players are on long streaks and some players keep running into them while others don't, or endgames where it feels like you got screwed by fighting the same strong player several times in a row.
 
 The two ideas really only work as a pair:
 
@@ -114,32 +128,32 @@ Some things to work through:
 - **Readability.** Less visible information could make the game harder to follow for newer players, and for people watching streams or esports.
 - **Eliminations.** Once players are knocked out, any fixed schedule has to adjust, with ghost fights or reshuffling.
 
-## Feeling screwed after a loss
+### Feeling screwed after a loss
 
 A lot of the time, losing can feel like you couldn't have done anything. Statistically that's obviously not true. There's no perfect player, and probably no perfect game of TFT has ever been played. But it can be really unclear why certain decisions were bad. That's why top players VOD review. Most players won't, and how they feel one second after a game ends is pretty much how they'll feel about that game overall.
 
 The main things you can feel screwed by are items, rolldowns, matchmaking (see [Scouting and matchmaking](#scouting-and-matchmaking)), and augments.
 
-**Items** have improved a lot. You only really feel screwed by items maybe 1 in 50 games now, and I think they've been handled really well, especially since many items can be played in place of others, something that's been getting better and better with every update.
+**Items** have improved a lot. You only really feel screwed by items maybe 1 in 50 games now, especially since many items can substitute for others, which keeps getting better with every update.
 
-**Rolldowns.** The community's understanding is that shops have some kind of pity or bad-luck protection, though how it works isn't public. There was a bug a while back that let players hit a 3-star Ryze in one shop, which people linked to it. In one set (I forget which), a lot of players, including top players, were talking about terrible rolldown luck, and a popular theory was a bug in that system, but a dev said there was no such bug. If that's true, I wonder what caused the sudden wave of bad-luck reports. Honestly, even I thought that something was bugged at the time just due to the volume of reports. Was there something about that set that unintentionally made rolls feel worse?
+**Rolldowns.** The community's understanding is that shops have some form of bad-luck protection, though how it works isn't public. A past bug let players hit a 3-star Ryze in one shop, which people linked to it. In Set 15, a lot of players, including top players, reported terrible rolldown luck, and a popular theory was a bug in that system, but a dev said there was no such bug. Even I thought something was bugged at the time, just from the volume of reports. If there wasn't a bug, was there something about that set that unintentionally made rolls feel worse?
 
 **Augments** can't be changed, so an early pick that doesn't work out stays with you the whole game (see [Line selection](#line-selection-theorycrafting-and-endgame-boards)).
 
-## Other missing information
+### Other missing information
 
 A lot of important information isn't directly visible in the game, especially for newer players, though even experienced players would use some of it. Some examples:
 
-- Champions left in the pool (see the section above). Right now you have to scout other people's boards and estimate.
-- Cashouts for some traits and augments. Can be found online, but not ingame.
-- Damage taken from losing a round. I'm not sure about this one; I think the game might already show it somewhere, but I don't exactly recall.
+- Champions left in the pool (see the [prototype](#prototype-pool-size-indicator) at the top). Right now you have to scout other people's boards and estimate.
+- Cashouts for some traits and augments, which you can only find online.
+- Damage taken from losing a round (the game may already show this somewhere; I don't remember exactly).
 - Probably many others I'm not thinking of.
 
 There's also a lot of data that matters at high levels and basically just lives on websites: artifact stats, emblem stats, augment stats, comp stats, charm stats. Knowing or not knowing these can change a game a lot, and these days it feels less like intuition and more like having looked the numbers up ahead of time, which can feel bad.
 
 I can see why some of this isn't in the game, though. Some of it only really matters to a small number of high-level players, and for the playerbase as a whole it might not seem that important. Adding all of it would clutter the UI and make the game less inviting to newer players. An emblem's average placement on a unit, for example, matters a lot at high levels, but it isn't something you'd expect to see in game.
 
-## Stage by stage
+### Stage by stage
 
 **Opener.** Rule of thumb: match pairs and build the strongest board you can at any given time. Some players go for econ, but I find that pretty greedy and perform better just having a stronger board. I'd only make econ with no pairs and no strong early units worth keeping.
 
@@ -149,7 +163,7 @@ I can see why some of this isn't in the game, though. Some of it only really mat
 
 **Carousel.** It has a nice comeback mechanic built in, since weaker players pick first. TFT has gotten a lot better about items in general: there's still variance, but the item system is balanced well enough that most players can work around it in most games. I recall a dev specifically stating they wanted to remove it due to the twitch reflex nature of picking your item, and it has been removed a few times but always came back.
 
-**Neutral rounds.** I recall seeing a dev speak on how they wanted to remove Neutral rounds, and their reasoning as to why they're still here. My memory is a little fuzzy, but one reason I recall is that they give players a breather, which is important. But losing to them feels really bad, while winning just feels like the norm. The good outcome feels normal and the bad one feels bad, so the overall experience ends up negative. Some quick thoughts/questions/reflections:
+**Neutral rounds.** I recall a dev talking about wanting to remove neutral rounds and why they're still here. If I remember right, one reason is that they give players a breather, which matters. But losing to them feels really bad while winning just feels normal, so the overall experience leans negative. Some questions:
 
 - Is there a reason players should be punished for a board that's too weak here, or is it just filling the gap?
 - What would TFT lose if it were just an empty round? Players would probably find the wait boring.
@@ -164,7 +178,7 @@ Neutrals do make winning feel like it matters, even when it's expected most of t
 
 **Stage 5 to endgame.** If your board isn't online here, you're done. Some win-streaking fast 9 boards come online at this stage and will finish you off if you aren't already out.
 
-## Other thoughts
+### Other thoughts
 
 **Metas.** This is probably what high-level players talk about most. A meta can get stale or unbalanced, but when people call a meta "bad," they usually mean it isn't very skill expressive: a few outliers should almost always be taken, not getting them means losing most of the time, and even better players have few ways around that luck.
 
@@ -176,9 +190,9 @@ Neutrals do make winning feel like it matters, even when it's expected most of t
 
 **Engine bugs.** There are a lot right now, and they affect players at every level, but I assume they're already known and being worked on.
 
-### Things I haven't thought much about
+**Things I haven't thought much about:**
 
-- Positioning (never been my strength, and it feels nebulous to me)
+- Positioning. It's never been my strength, and it feels nebulous to me.
 - Game length, which I think Riot has been trying to shorten recently.
-- Combat readability (not really a visuals kind of guy)
-- Other game modes. Haven't played them much personally, so I couldn't really say. I do find Tocker's Trials pretty interesting though, but it's missing a lot of replayability for something so short, so it's clearly in its early stages.
+- Combat readability. I'm not really a visuals person.
+- Other game modes. I haven't played them much, so I can't say much. I do find Tocker's Trials interesting, but it's missing replayability for something so short, so it's clearly in its early stages.
