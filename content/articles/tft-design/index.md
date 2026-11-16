@@ -90,7 +90,7 @@ Set 8's hero augments are the clearest example. Taking one meant you had to play
 2.  If hitting the hero augment was too easy, everyone could force the best comp available.
 3.  Some players liked being able to streamline a game around one champion, but not everyone wanted to do it every game. (Later sets improved on this by making some hero augments which were not guaranteed every game, but still in the pool.)
 
-It still happens in more modern sets. In Set 15, Deadlier Caps was technically a generic augment, but it was so much weaker on other lines that taking it all but locked you into Veigar, or, in a pinch, Lissandra, since Ziggs in a prismatic start lobby was nearly impossible without an econ start.
+It still happens in more modern sets. In Set 16, Deadlier Caps was technically a generic augment, but it was so much weaker on other lines that taking it all but locked you into Veigar, or, in a pinch, Lissandra, since Ziggs in a prismatic start lobby was nearly impossible without an econ start.
 
 To a lesser degree, this is true of almost every augment. Most comps want some mix of items, econ, or combat augments, and all of those are shaped by choices made in stage 2, so your options narrow as the game goes on. The Ziggs case above shows this: Deadlier Caps is an item augment that should theoretically fit an AP carry like Ziggs, but because Ziggs needed an econ start, clicking an item augment in stage 2 made him too expensive to play. In a way, that's normal and good: options narrowing as the game goes on is a healthy trait, and by the endgame players should have narrowed in on a comp. The problem is that the narrowing is too sharp. Being down even one augment is a huge liability for your final board, and that augment could be the very first one you pick in the game, if you don't have a line selected by early stage 2.
 
@@ -108,7 +108,7 @@ Playing creatively in the endgame at a high level doesn't really exist anymore. 
 
 With this many players, no one can out-theorycraft the whole community. The meta gets posted online, and nearly everyone ends up with the same meta knowledge, apart from the very top, where Challenger players rely on their own intuition or study groups to min-max.
 
-There are still rare chances to get ahead of the curve. At the start of Set 15, I noticed in the first patch that T-Hex was overtuned, before other players did and before it got buffed even more. But moments like that are uncommon. Trait Tracker and Trait Ladder augments might have created more of them, but now there are tools that solve the optimal boards for those too.
+There are still rare chances to get ahead of the curve. At the start of Set 16, I noticed in the first patch that T-Hex was overtuned, before other players did and before it got buffed even more. But moments like that are uncommon. Trait Tracker and Trait Ladder augments might have created more of them, but now there are tools that solve the optimal boards for those too.
 
 A big part of the payoff of creativity is the feeling of discovery, of being a pioneer. That's hard to get when so many eyes are on the same game and the community solves things so quickly. I don't think that's easily solvable in the modern climate.
 
