@@ -132,7 +132,7 @@ The biggest issue is probably readability. Players need to clearly know when the
 
 The other risk is how players might abuse the 5-second window. If there's an advantage to doing as many actions as possible while your board can't be seen, every top player will do it, and TFT gains a big APM check where you try to rush everything into the last 5 seconds. I'm not sure how much of an advantage hiding your actions actually is, though. Top players can already guess what others are doing from common rolling and leveling intervals, and items, augments, and current champions all carry over from the last turn, so it's easy to see what direction a player is going. The main thing you gain from hiding your actions is positioning, which is exactly what the snapshot is meant to hide. Still, playtesting might show that hiding actions in those last 5 seconds matters much more than I think, and that top players would need good APM to compete.
 
-Personally, I think it's a worthwhile trade, but there could easily be more problems with it that I'm missing.
+TFT already has some APM checks, such as big rolldown turns, but those can be worked around, like by rolling earlier for a small loss of gold. I, myself, usually split my rolldown over two turns to make sure I stabilize my board in time. If the cost of not acting in the last 5 seconds is similarly small, it won't affect top-level play much, and I think the snapshot is a worthwhile trade. If it turns out to be huge, it's not worth adding such a punishing APM check to the game. There could also easily be more problems with it that I'm missing.
 
 ### Matchmaking
 
