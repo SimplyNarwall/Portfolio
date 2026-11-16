@@ -128,7 +128,11 @@ I question whether players should even have perfect information on enemy positio
 
 The idea I have in mind is that for the last 5 or so seconds of each planning phase, you only see a snapshot of each opponent's board from that moment until the fight starts. The snapshot freezes everything, not just positions. A half-updating board would look strange and inconsistent, and it's hard to change a comp much in 5 seconds anyway. You can still scout comps, items, and champion counts (including whether you're contested), but you get almost no information on final positioning. Players can still reposition after the snapshot, so it becomes a game of prediction rather than reflexes.
 
-The biggest issue is probably readability. Players need to clearly know when they're looking at a snapshot instead of a live board, especially newer players and people watching streams or esports. That's true of any way of hiding positioning, not just this one. Personally, I think it's a worthwhile trade, but there could easily be more problems with it I'm missing, particularly with how players might abuse the 5 second window where their board can't be seen.
+The biggest issue is probably readability. Players need to clearly know when they're looking at a snapshot instead of a live board, especially newer players and people watching streams or esports. That's true of any way of hiding positioning, not just this one.
+
+The other risk is how players might abuse the 5-second window. If there's an advantage to doing as many actions as possible while your board can't be seen, every top player will do it, and TFT gains a big APM check where you try to rush everything into the last 5 seconds. I'm not sure how much of an advantage hiding your actions actually is, though. Top players can already guess what others are doing from common rolling and leveling intervals, and items, augments, and current champions all carry over from the last turn, so it's easy to see what direction a player is going. The main thing you gain from hiding your actions is positioning, which is exactly what the snapshot is meant to hide. Still, playtesting might show that hiding actions in those last 5 seconds matters much more than I think, and that top players would need good APM to compete.
+
+Personally, I think it's a worthwhile trade, but there could easily be more problems with it that I'm missing.
 
 ### Matchmaking
 
