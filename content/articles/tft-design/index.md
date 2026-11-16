@@ -22,15 +22,21 @@ A quick Unity mockup of one idea from these notes: showing how many copies of a 
 
 Scouting the pool is a real skill in TFT, and showing pool counts would remove part of it. Scouting for items, positioning, and what people are building would still matter just as much, but counting copies would no longer separate experienced players from newer ones.
 
-The bigger reason is newer players. As far as I know, the game never explains why you shouldn't contest other players. Champion pools and pool sizes are core concepts that even lower-ranked players should understand, even if they don't have a friend to explain it. Right now you learn it from a guide, a friend, or losing a lot.
-
-**The idea.** A simple ratio on the champion's info card (copies left in the pool out of the total pool size), which already holds a lot of information, plus a tooltip for newer players explaining that the ratio determines how likely they are to find that unit. Keep it general and readable rather than trying to show everything.
+The bigger reason is newer players. As far as I know, the game never explains why you shouldn't contest other players. Champion pools and pool sizes are core concepts that less involved players should understand, even if they don't have a friend to explain it. Right now you learn it from a guide, a friend, or losing a lot.
 
 **Should players have perfect knowledge of the pool?** This is the real debate. One strong counterargument is that perfect information can be a problem in itself: if everyone knows exactly what's left, everyone tends to make the same rational decisions, and lobbies get more uniform. Experienced players can already scout an approximate pool count, so the question is whether streamlining the new player experience is worth narrowing that gap. Put another way: is counting the pool a skill TFT should be testing?
 
 My view is that while scouting is an important skill, it's equally or more important for newer players to have something to point to when they can never seem to hit their units. Right now, many of them don't even know the pool exists. Pool counts also better inform a player's decision to pivot, which ties into the flexibility discussion below: if pivoting depends on reading the lobby correctly, pool counts make that read easier.
 
 **Details for a deeper dive.** What exactly should count: copies in other players' shops, in your own shop, on boards, on benches? These matter for implementation, but the general idea comes first.
+
+### Design decisions
+
+**A number instead of an icon.** My first idea was an icon marking champions that are currently uncontested. I dropped it for two reasons. Newer players might buy any unit with the icon on it, whether or not it fits their board. And the icon would pop in and out as players reroll and buy, which is visually jarring.
+
+**Updating on a delay.** A ratio is less jarring, but it still changes a lot, especially during rolldowns. A number bouncing up and down draws the eye in a way that isn't wanted, so in the real game it should probably update every second or few seconds rather than on every action. (The mockup updates instantly so the effect is easy to see.)
+
+**Placing it on the info card.** There's a good argument against this: the info card shows information about that specific copy of a champion, while the pool count applies to every copy. I put it there anyway because the card already has a precedent for detailed numbers, and for tooltips you can hover to learn what they mean. Putting counts in the shop instead would mean five constantly changing numbers on screen, which feels like too much visual overload. There aren't many other places for detailed champ info to show up.
 
 ## Working notes
 
@@ -77,6 +83,16 @@ Part of what narrows the destinations is how changeable each piece of your board
 - **Augments** are permanent. Once you have them, they're there forever.
 
 Since augments are such a big part of your board's strength and you can't change them, your early augments narrow which endgame boards are realistically open to you, and switching later means ending up weaker than the player who stuck to their line. Suboptimal items do the same thing. If you find a good direction early, the game gets very simple.
+
+Set 8's hero augments are the clearest example. Taking one meant you had to play that champion, or you'd lose the augment's benefit entirely. That downside was so large that pivoting away was basically impossible, and adding lots of rerolls didn't fix it. It created three problems (among others):
+
+1.  Taking the augment gave you one copy of the champion, but you usually still needed two more to upgrade it, even for "support" hero augments. If you didn't hit them, you were screwed. The reverse was true too: if you played around getting a specific hero augment and then weren't offered it, you were just as screwed.
+2.  If hitting was too easy, everyone could force the best comp available.
+3.  Some players liked being able to streamline a game around one champion, but not everyone wanted to do it every game. (Later sets improved this by making hero augments not guaranteed every game.)
+
+It still happens in more modern sets. In Set 15, Deadlier Caps was technically a generic augment, but it was so much weaker on other lines that taking it all but locked you into Veigar, or, in a pinch, Lissandra, since Ziggs in a prismatic lobby was nearly impossible without an econ start.
+
+To a lesser degree, this is true of almost every augment. Most comps want some mix of items, econ, or combat augments, and all of those are shaped by choices made in stage 2, so your options narrow as the game goes on. The Ziggs case above shows this: Deadlier Caps is an item augment that should theoretically fit an AP carry like Ziggs, but because Ziggs needed an econ start, clicking an item augment in stage 2 made him too expensive to play. Honestly, that's normal and good: by the endgame, players should have narrowed in on a comp. The problem is that the narrowing is too sharp. Being down even one augment is a huge liability for your final board, and that augment could be the very first one you pick in the game, if you don't have a line selected by early stage 2.
 
 One idea I've toyed with is making augments less set in stone, with some limited way to change them late in the game. To be clear, I don't think it's a good idea as it stands. It would be hard to implement, I haven't thought it through, and it runs into a huge number of issues, for example:
 
@@ -153,17 +169,9 @@ There's also a lot of data that matters at high levels and basically just lives 
 
 I can see why some of this isn't in the game, though. Some of it only really matters to a small number of high-level players, and for the playerbase as a whole it might not seem that important. Adding all of it would clutter the UI and make the game less inviting to newer players. An emblem's average placement on a unit, for example, matters a lot at high levels, but it isn't something you'd expect to see in game.
 
-### Stage by stage
+### Neutral rounds
 
-**Opener.** Rule of thumb: match pairs and build the strongest board you can at any given time. Some players go for econ, but I find that pretty greedy and perform better just having a stronger board. I'd only make econ with no pairs and no strong early units worth keeping.
-
-**First augment.** Depends on the meta, but usually econ or hero/lock-in augments. If you find a good direction early, the game gets very simple.
-
-**Stage 2.** Strongest board, even if I'm not streaking. HP is very important, and I think streaking is a little overrated, though if you reach the end of the stage on a streak you obviously want to keep it. Levels usually within the range of 3/4/5. Level 6 on a hard-forced win streak is rare, and I think it's usually a mistake.
-
-**Carousel.** It has a nice comeback mechanic built in, since weaker players pick first. TFT has gotten a lot better about items in general: there's still variance, but the item system is balanced well enough that most players can work around it in most games. I recall a dev specifically stating they wanted to remove it due to the twitch reflex nature of picking your item, and it has been removed a few times but always came back.
-
-**Neutral rounds.** I recall a dev talking about wanting to remove neutral rounds and why they're still here. If I remember right, one reason is that they give players a breather, which matters. But losing to them feels really bad while winning just feels normal, so the overall experience leans negative. Some questions:
+I recall a dev talking about wanting to remove neutral rounds and why they're still here. If I remember right, one reason is that they give players a breather, which matters. But losing to them feels really bad while winning just feels normal, so the overall experience leans negative. Some questions:
 
 - Is there a reason players should be punished for a board that's too weak here, or is it just filling the gap?
 - What would TFT lose if it were just an empty round? Players would probably find the wait boring.
@@ -172,27 +180,8 @@ I can see why some of this isn't in the game, though. Some of it only really mat
 
 Neutrals do make winning feel like it matters, even when it's expected most of the time.
 
-**Stage 3.** Level 5 on 1-cost reroll, 6 to 7 otherwise. Feels like cruise control: what you have at the start of the stage is likely what you'll play the whole stage. That might be fine, since the later stages are intense. I usually use this time to scout and figure out my endgame plan.
-
-**Stage 4.** Level 6 on 1 or 2-cost reroll, level 7 on 3-cost reroll, 8 otherwise. The meat and potatoes of the game and probably the stage people talk about most. Your board is expected to be locked in, big rolldowns happen, and you get your final augment. Most people would call this the climax of a TFT game. Does it have to be? I think it's in a fine spot as is.
-
-**Stage 5 to endgame.** If your board isn't online here, you're done. Some win-streaking fast 9 boards come online at this stage and will finish you off if you aren't already out.
-
-### Other thoughts
+### Other observations
 
 **Metas.** This is probably what high-level players talk about most. A meta can get stale or unbalanced, but when people call a meta "bad," they usually mean it isn't very skill expressive: a few outliers should almost always be taken, not getting them means losing most of the time, and even better players have few ways around that luck.
 
-**Lower vs. higher tiers.** There's a big gap between the general playerbase and high-level players. Meta perception is really different, and simpler comps are seen as much stronger at lower tiers (I remember a friend complaining about Yordles when they were mediocre). Level distribution is different too, and a lot of lower-tier players like to force the same comp over and over. Honestly, they should be able to. It shouldn't be viable at higher ranks, or the game becomes a slot machine. But at what rank should forcing stop being viable?
-
-**Retention.** The meta and bug issues are mostly about retaining players rather than gaining new ones. Part of me wonders how important retention is, since a game can be really fun for a while and then fall off, and that's fine. But as a company, it's clearly important. I think Riot has caught onto this by making the early patches of a set higher variance and more fun, then more balanced and geared toward returning players later. Of course, that assumes they know how a patch will play out ahead of time, which they can't fully.
-
-**New player experience.** I suspect it's what Riot worries about most. There's a lot going on, more than a classic tutorial could teach intuitively, so it can be hard to get into, though TFT has gotten much better about this over time. It's been a long time since I was a new player, and even my friends are mostly Platinum to Diamond now, so I don't have much insight here.
-
-**Engine bugs.** There are a lot right now, and they affect players at every level, but I assume they're already known and being worked on.
-
-**Things I haven't thought much about:**
-
-- Positioning. It's never been my strength, and it feels nebulous to me.
-- Game length, which I think Riot has been trying to shorten recently.
-- Combat readability. I'm not really a visuals person.
-- Other game modes. I haven't played them much, so I can't say much. I do find Tocker's Trials interesting, but it's missing replayability for something so short, so it's clearly in its early stages.
+**Lower vs. higher tiers.** There's a big gap between the general playerbase and high-level players. Meta perception is really different, and simpler comps are seen as much stronger at lower tiers (I remember a friend complaining about Yordles when they were mediocre). Level distribution is different too, and a lot of lower-tier players like to force the same comp over and over. Honestly, they should be able to. It shouldn't be optimal at higher ranks, or the game becomes a slot machine. But at what rank should forcing become a detriment?
