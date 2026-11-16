@@ -8,7 +8,7 @@ tags: ["Design", "TFT", "Unity"]
 showTableOfContents: true
 ---
 
-Some thoughts and open questions about TFT's design, grouped by topic. Most of these come from playing in Grandmaster - Low Challenger, so they lean toward that end of the game. The ideas are all mine; I used Claude to help organize and communicate them clearly.
+Some thoughts and open questions about TFT's design, grouped by topic. Most of these come from playing at low Challenger (I was hovering around high Grandmaster when I last played), so they lean toward that end of the game. The ideas are all mine; I used Claude to help organize and communicate them clearly.
 
 Below is a quick prototype of one idea, followed by my working notes on TFT's design. The notes are exploratory and not meant to be solid solutions; the prototype is what it looks like when I take one of them further.
 
@@ -86,13 +86,13 @@ Since augments are such a big part of your board's strength and you can't change
 
 Set 8's hero augments are the clearest example. Taking one meant you had to play that champion, or you'd lose the augment's benefit entirely. That downside was so large that pivoting away was basically impossible, and adding lots of rerolls didn't fix it. It created three problems (among others):
 
-1.  Taking the augment gave you one copy of the champion, but you usually still needed two more to upgrade it, even for "support" hero augments. If you didn't hit them, you were screwed. The reverse was true too: if you played around getting a specific hero augment and then weren't offered it, you were just as screwed.
+1.  Taking the augment gave you one copy of the champion, but you usually still needed two more to upgrade it, even for "support" hero augments. If you didn't hit them, you were stuck with a weak board. The reverse was true too: if you played around getting a specific hero augment and then weren't offered it, your game fell apart just the same.
 2.  If hitting was too easy, everyone could force the best comp available.
 3.  Some players liked being able to streamline a game around one champion, but not everyone wanted to do it every game. (Later sets improved this by making hero augments not guaranteed every game.)
 
-It still happens in more modern sets. In Set 15, Deadlier Caps was technically a generic augment, but it was so much weaker on other lines that taking it all but locked you into Veigar, or, in a pinch, Lissandra, since Ziggs in a prismatic lobby was nearly impossible without an econ start.
+It still happens in more modern sets. In Set 15, Deadlier Caps was technically a generic augment, but it was so much weaker on other lines that taking it all but locked you into Veigar, or, in a pinch, Lissandra, since Ziggs in a prismatic start lobby was nearly impossible without an econ start.
 
-To a lesser degree, this is true of almost every augment. Most comps want some mix of items, econ, or combat augments, and all of those are shaped by choices made in stage 2, so your options narrow as the game goes on. The Ziggs case above shows this: Deadlier Caps is an item augment that should theoretically fit an AP carry like Ziggs, but because Ziggs needed an econ start, clicking an item augment in stage 2 made him too expensive to play. Honestly, that's normal and good: by the endgame, players should have narrowed in on a comp. The problem is that the narrowing is too sharp. Being down even one augment is a huge liability for your final board, and that augment could be the very first one you pick in the game, if you don't have a line selected by early stage 2.
+To a lesser degree, this is true of almost every augment. Most comps want some mix of items, econ, or combat augments, and all of those are shaped by choices made in stage 2, so your options narrow as the game goes on. The Ziggs case above shows this: Deadlier Caps is an item augment that should theoretically fit an AP carry like Ziggs, but because Ziggs needed an econ start, clicking an item augment in stage 2 made him too expensive to play. In a way, that's normal and good: options narrowing as the game goes on is a healthy trait, and by the endgame players should have narrowed in on a comp. The problem is that the narrowing is too sharp. Being down even one augment is a huge liability for your final board, and that augment could be the very first one you pick in the game, if you don't have a line selected by early stage 2.
 
 One idea I've toyed with is making augments less set in stone, with some limited way to change them late in the game. To be clear, I don't think it's a good idea as it stands. It would be hard to implement, I haven't thought it through, and it runs into a huge number of issues, for example:
 
@@ -116,11 +116,11 @@ The other side of this is that players need something to ground them. Not every 
 
 I'm not sure what the answer is. Stats sites work because the same choice is worth about the same in every game, so it averages out. Choices whose value depends more on the specific game (the lobby, what others are playing, what's left in the pool) would be harder to solve ahead of time, but they'd also add variance, making the game more luck-based and harder to learn. That's probably not worth the tradeoff.
 
-Honestly, some centralization is probably unavoidable. The meta will always settle around a few comps. The obvious way around that is extremely high variance, but then the game becomes a gamblefest in its own right, and having to theorycraft every single game would be too mentally taxing for most players.
+Some centralization is probably unavoidable. The meta will always settle around a few comps. The obvious way around that is extremely high variance, but then the game becomes a gamblefest in its own right, and having to theorycraft every single game would be too mentally taxing for most players.
 
 So I don't think the goal is to make theorycrafting the norm. Ideally, it would be rewarding, or even optimal, in a small minority of games, maybe 1 in 10. Right now, I can't think of a reason not to play a meta comp in almost any game.
 
-Related: when I took a few months off TFT, it wasn't because games lacked variety. There's already a ton of variation between games. It was more that I'd learned so much that even with that much variety, games started to feel like going through the motions. Every game eventually gets to that point for a dedicated player, and honestly it's a strength of TFT's design that it took so long.
+Related: when I took a few months off TFT, it wasn't because games lacked variety. There's already a ton of variation between games. It was more that I'd learned so much that even with that much variety, games started to feel like going through the motions. Every game eventually gets to that point for a dedicated player, and it's a strength of TFT's design that it took so long.
 
 ### Scouting and matchmaking
 
@@ -130,7 +130,7 @@ I'd even question whether players should have perfect information on enemy board
 
 I don't mean literal round robin, just matchmaking that's more uniform and predictable. It might still feel unfair sometimes, but it would at least feel fairer, especially in the late game, where fight order can be a huge swing in placements.
 
-More uniform matchmaking would also avoid a lot of common frustrations, like lobbies where two players are on long streaks and some players keep running into them while others don't, or endgames where it feels like you got screwed by fighting the same strong player several times in a row.
+More uniform matchmaking would also avoid a lot of common frustrations, like lobbies where two players are on long streaks and some players keep running into them while others don't, or endgames where you fight the same strong player several times in a row.
 
 The two ideas really only work as a pair:
 
@@ -143,45 +143,3 @@ Some things to work through:
 
 - **Readability.** Less visible information could make the game harder to follow for newer players, and for people watching streams or esports.
 - **Eliminations.** Once players are knocked out, any fixed schedule has to adjust, with ghost fights or reshuffling.
-
-### Feeling screwed after a loss
-
-A lot of the time, losing can feel like you couldn't have done anything. Statistically that's obviously not true. There's no perfect player, and probably no perfect game of TFT has ever been played. But it can be really unclear why certain decisions were bad. That's why top players VOD review. Most players won't, and how they feel one second after a game ends is pretty much how they'll feel about that game overall.
-
-The main things you can feel screwed by are items, rolldowns, matchmaking (see [Scouting and matchmaking](#scouting-and-matchmaking)), and augments.
-
-**Items** have improved a lot. You only really feel screwed by items maybe 1 in 50 games now, especially since many items can substitute for others, which keeps getting better with every update.
-
-**Rolldowns.** The community's understanding is that shops have some form of bad-luck protection, though how it works isn't public. A past bug let players hit a 3-star Ryze in one shop, which people linked to it. In Set 15, a lot of players, including top players, reported terrible rolldown luck, and a popular theory was a bug in that system, but a dev said there was no such bug. Even I thought something was bugged at the time, just from the volume of reports. If there wasn't a bug, was there something about that set that unintentionally made rolls feel worse?
-
-**Augments** can't be changed, so an early pick that doesn't work out stays with you the whole game (see [Line selection](#line-selection-theorycrafting-and-endgame-boards)).
-
-### Other missing information
-
-A lot of important information isn't directly visible in the game, especially for newer players, though even experienced players would use some of it. Some examples:
-
-- Champions left in the pool (see the [prototype](#prototype-pool-size-indicator) at the top). Right now you have to scout other people's boards and estimate.
-- Cashouts for some traits and augments, which you can only find online.
-- Damage taken from losing a round (the game may already show this somewhere; I don't remember exactly).
-- Probably many others I'm not thinking of.
-
-There's also a lot of data that matters at high levels and basically just lives on websites: artifact stats, emblem stats, augment stats, comp stats, charm stats. Knowing or not knowing these can change a game a lot, and these days it feels less like intuition and more like having looked the numbers up ahead of time, which can feel bad.
-
-I can see why some of this isn't in the game, though. Some of it only really matters to a small number of high-level players, and for the playerbase as a whole it might not seem that important. Adding all of it would clutter the UI and make the game less inviting to newer players. An emblem's average placement on a unit, for example, matters a lot at high levels, but it isn't something you'd expect to see in game.
-
-### Neutral rounds
-
-I recall a dev talking about wanting to remove neutral rounds and why they're still here. If I remember right, one reason is that they give players a breather, which matters. But losing to them feels really bad while winning just feels normal, so the overall experience leans negative. Some questions:
-
-- Is there a reason players should be punished for a board that's too weak here, or is it just filling the gap?
-- What would TFT lose if it were just an empty round? Players would probably find the wait boring.
-- What if it were a show match? Then players would feel like the outcome didn't matter at all.
-  - A show match with real effects is a bigger problem, since stronger boards would get even more tempo and shift the meta a lot.
-
-Neutrals do make winning feel like it matters, even when it's expected most of the time.
-
-### Other observations
-
-**Metas.** This is probably what high-level players talk about most. A meta can get stale or unbalanced, but when people call a meta "bad," they usually mean it isn't very skill expressive: a few outliers should almost always be taken, not getting them means losing most of the time, and even better players have few ways around that luck.
-
-**Lower vs. higher tiers.** There's a big gap between the general playerbase and high-level players. Meta perception is really different, and simpler comps are seen as much stronger at lower tiers (I remember a friend complaining about Yordles when they were mediocre). Level distribution is different too, and a lot of lower-tier players like to force the same comp over and over. Honestly, they should be able to. It shouldn't be optimal at higher ranks, or the game becomes a slot machine. But at what rank should forcing become a detriment?
